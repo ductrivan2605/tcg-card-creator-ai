@@ -1,0 +1,616 @@
+{
+  "version": "0.8",
+  "deckId": "deep_sea_v1",
+  "count": 20,
+  "cards": [
+    {
+      "id": "ds01",
+      "rarity": "rare",
+      "tags": [
+        "Lure",
+        "Abyssal"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 2,
+        "defense": 4,
+        "health": 4,
+        "element": "water",
+        "faction": "abyssal"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS01",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Anglerfish Lure",
+        "ability": "Lure: opponent must target this with their next attack.",
+        "flavor": "A flicker in the dark is rarely a kindness.",
+        "typeLine": "Creature",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds02",
+      "rarity": "common",
+      "tags": [
+        "Glow"
+      ],
+      "gameplay": {
+        "cost": 1,
+        "attack": 1,
+        "defense": 1,
+        "health": 1,
+        "element": "water",
+        "faction": "deep"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS02",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Bioluminescent Jelly",
+        "ability": "Glow: draw a card at end of turn if opponent has 3+ cards in hand.",
+        "flavor": "Light without warmth, beauty without thought.",
+        "typeLine": "Creature",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds03",
+      "rarity": "epic",
+      "tags": [
+        "Tentacle",
+        "Pull"
+      ],
+      "gameplay": {
+        "cost": 4,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "void",
+        "faction": "abyssal"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS03",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Giant Squid Ambush",
+        "ability": "Deal 5 damage split between up to 3 targets.",
+        "flavor": "Eight arms. One purpose. No return.",
+        "typeLine": "Spell",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds04",
+      "rarity": "rare",
+      "tags": [
+        "Terrain",
+        "Heat"
+      ],
+      "gameplay": {
+        "cost": 2,
+        "attack": 0,
+        "defense": 6,
+        "health": 6,
+        "element": "earth",
+        "faction": "deep"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS04",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Hydrothermal Vent",
+        "ability": "Heat: your Abyssal creatures gain +1/+1 while this is in play.",
+        "flavor": "Where the earth bleeds, life finds a way.",
+        "typeLine": "Terrain",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds05",
+      "rarity": "legendary",
+      "tags": [
+        "Abyssal",
+        "Ancient"
+      ],
+      "gameplay": {
+        "cost": 6,
+        "attack": 5,
+        "defense": 7,
+        "health": 7,
+        "element": "water",
+        "faction": "abyssal"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS05",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Coelacanth Elder",
+        "ability": "Ancient: costs (1) less for each Abyssal in graveyard.",
+        "flavor": "Older than memory. Slower than patience.",
+        "typeLine": "Creature",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds06",
+      "rarity": "rare",
+      "tags": [
+        "Cloak",
+        "Abyssal"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 3,
+        "defense": 3,
+        "health": 3,
+        "element": "void",
+        "faction": "abyssal"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS06",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Vampire Squid",
+        "ability": "Cloak: cannot be targeted by spells until it attacks.",
+        "flavor": "It does not hunt. It waits.",
+        "typeLine": "Creature",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds07",
+      "rarity": "common",
+      "tags": [
+        "Bounce"
+      ],
+      "gameplay": {
+        "cost": 2,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "water",
+        "faction": "deep"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS07",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Pressure Wave",
+        "ability": "Bounce: return target creature cost 3 or less to hand.",
+        "flavor": "A mile down, even silence has weight.",
+        "typeLine": "Spell",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds08",
+      "rarity": "common",
+      "tags": [
+        "Devour"
+      ],
+      "gameplay": {
+        "cost": 2,
+        "attack": 4,
+        "defense": 1,
+        "health": 1,
+        "element": "water",
+        "faction": "deep"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS08",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Gulper Eel",
+        "ability": "Devour: gain temp mana equal to cost when destroying a creature.",
+        "flavor": "A mouth that knew nothing of restraint.",
+        "typeLine": "Creature",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds09",
+      "rarity": "legendary",
+      "tags": [
+        "Summon",
+        "Crush"
+      ],
+      "gameplay": {
+        "cost": 8,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "void",
+        "faction": "abyssal"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS09",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Leviathan Awakens",
+        "ability": "Summon a 9/9 Leviathan with Crush. Destroy all Terrain.",
+        "flavor": "The deep does not stir. The deep wakes.",
+        "typeLine": "Spell",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds10",
+      "rarity": "common",
+      "tags": [
+        "Decompose"
+      ],
+      "gameplay": {
+        "cost": 1,
+        "attack": 0,
+        "defense": 2,
+        "health": 2,
+        "element": "earth",
+        "faction": "deep"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS10",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Bone-eating Worm",
+        "ability": "Decompose: gain 1 life per creature in graveyards at turn start.",
+        "flavor": "Nothing falls forever. Something is waiting.",
+        "typeLine": "Creature",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds11",
+      "rarity": "epic",
+      "tags": [
+        "Terrain"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 0,
+        "defense": 5,
+        "health": 5,
+        "element": "earth",
+        "faction": "coral"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS11",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Black Smoker Reef",
+        "ability": "Mineral Bloom: gain 2 mineral tokens when playing an Abyssal.",
+        "flavor": "Chemistry, not sunlight, sustains this garden.",
+        "typeLine": "Terrain",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds12",
+      "rarity": "rare",
+      "tags": [
+        "Strike"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "water",
+        "faction": "deep"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS12",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Frilled Shark Strike",
+        "ability": "Strike: deal damage equal to cost of target creature.",
+        "flavor": "Three hundred teeth, one terrible memory.",
+        "typeLine": "Spell",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds13",
+      "rarity": "common",
+      "tags": [
+        "Drift"
+      ],
+      "gameplay": {
+        "cost": 2,
+        "attack": 2,
+        "defense": 2,
+        "health": 2,
+        "element": "water",
+        "faction": "deep"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS13",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Dumbo Octopus",
+        "ability": "Drift: cannot be blocked by creatures cost 4+.",
+        "flavor": "Soft, slow, and entirely unbothered.",
+        "typeLine": "Creature",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds14",
+      "rarity": "legendary",
+      "tags": [
+        "Terrain",
+        "Deep"
+      ],
+      "gameplay": {
+        "cost": 5,
+        "attack": 0,
+        "defense": 10,
+        "health": 10,
+        "element": "void",
+        "faction": "abyssal"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS14",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Mariana Trench",
+        "ability": "Deepen: once per turn, banish target creature for 2 turns.",
+        "flavor": "Where pressure becomes prayer.",
+        "typeLine": "Terrain",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds15",
+      "rarity": "common",
+      "tags": [
+        "Scout",
+        "Glow"
+      ],
+      "gameplay": {
+        "cost": 1,
+        "attack": 1,
+        "defense": 2,
+        "health": 2,
+        "element": "water",
+        "faction": "surface"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS15",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Lanternfish Scout",
+        "ability": "Scout: look at top 2 of deck, replace one.",
+        "flavor": "Small lights, long shadows.",
+        "typeLine": "Creature",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds16",
+      "rarity": "rare",
+      "tags": [
+        "Symbiosis"
+      ],
+      "gameplay": {
+        "cost": 4,
+        "attack": 2,
+        "defense": 8,
+        "health": 8,
+        "element": "earth",
+        "faction": "coral"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS16",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Tube Worm Colony",
+        "ability": "Symbiosis: gain +1 def when a Terrain is played.",
+        "flavor": "Many bodies. One slow, patient idea.",
+        "typeLine": "Creature",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds17",
+      "rarity": "epic",
+      "tags": [
+        "Tide"
+      ],
+      "gameplay": {
+        "cost": 5,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "void",
+        "faction": "abyssal"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS17",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Abyssal Tide",
+        "ability": "Tide: all creatures lose 2 attack until end of turn.",
+        "flavor": "The deep takes its pound back.",
+        "typeLine": "Spell",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds18",
+      "rarity": "common",
+      "tags": [
+        "Feed",
+        "Sacrifice"
+      ],
+      "gameplay": {
+        "cost": 1,
+        "attack": 0,
+        "defense": 3,
+        "health": 3,
+        "element": "earth",
+        "faction": "deep"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS18",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Whale Fall",
+        "ability": "Feed: discard a card to draw two.",
+        "flavor": "Death below is dinner for a decade.",
+        "typeLine": "Terrain",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds19",
+      "rarity": "common",
+      "tags": [
+        "Bristle"
+      ],
+      "gameplay": {
+        "cost": 1,
+        "attack": 0,
+        "defense": 4,
+        "health": 4,
+        "element": "water",
+        "faction": "coral"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS19",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Sea Cucumber",
+        "ability": "Bristle: deals 1 damage to attacker when blocking.",
+        "flavor": "Modest. Unyielding. Slightly toxic.",
+        "typeLine": "Creature",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    },
+    {
+      "id": "ds20",
+      "rarity": "legendary",
+      "tags": [
+        "Wipe"
+      ],
+      "gameplay": {
+        "cost": 7,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "void",
+        "faction": "abyssal"
+      },
+      "metadata": {
+        "artist": "AI generated",
+        "set": "Default Set",
+        "serial": "DS20",
+        "collectorNumber": 0
+      },
+      "content": {
+        "name": "Kraken's Wrath",
+        "ability": "Wipe: destroy all creatures with cost 4 or higher.",
+        "flavor": "One arm could swallow a galleon. It has eight.",
+        "typeLine": "Spell",
+        "artwork": ""
+      },
+      "overrides": {},
+      "extraLayers": []
+    }
+  ]
+}

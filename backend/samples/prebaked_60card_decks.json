@@ -1,0 +1,5951 @@
+{
+  "decks": [
+    {
+      "id": "abyssal_depths_60",
+      "name": "Abyssal Depths",
+      "theme": "Deep Sea Creatures",
+      "rules": {
+        "elements": [
+          "water",
+          "void",
+          "earth",
+          "neutral"
+        ],
+        "factions": [
+          "abyssal",
+          "deep",
+          "coral",
+          "surface"
+        ],
+        "keywords": [
+          "Lure",
+          "Devour",
+          "Glow",
+          "Cloak",
+          "Bounce",
+          "Crush",
+          "Summon",
+          "Strike",
+          "Tide",
+          "Wipe"
+        ],
+        "card_types": [
+          "Creature",
+          "Spell",
+          "Terrain"
+        ],
+        "stat_ranges": {
+          "cost": {
+            "min": 0,
+            "max": 10
+          },
+          "attack": {
+            "min": 0,
+            "max": 12
+          },
+          "defense": {
+            "min": 0,
+            "max": 12
+          },
+          "health": {
+            "min": 0,
+            "max": 20
+          }
+        },
+        "ability_values": {},
+        "ability_constraints": {},
+        "synergy_bonuses": {}
+      },
+      "cards": [
+        {
+          "id": "abyssal_c_01",
+          "rarity": "common",
+          "tags": [
+            "Glow"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 1,
+            "defense": 2,
+            "health": 2,
+            "element": "water",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Bioluminescent Jelly",
+            "ability": "Glow: draw 1 card when played.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Aeginura_grimaldii.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Glow",
+                "description": "Glow: draw 1 card when played.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_02",
+          "rarity": "common",
+          "tags": [
+            "Glow"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 1,
+            "defense": 2,
+            "health": 2,
+            "element": "water",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Bioluminescent Jelly",
+            "ability": "Glow: draw 1 card when played.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Aeginura_grimaldii.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Glow",
+                "description": "Glow: draw 1 card when played.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_03",
+          "rarity": "common",
+          "tags": [
+            "Glow"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 1,
+            "defense": 2,
+            "health": 2,
+            "element": "water",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Bioluminescent Jelly",
+            "ability": "Glow: draw 1 card when played.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Aeginura_grimaldii.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Glow",
+                "description": "Glow: draw 1 card when played.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_04",
+          "rarity": "common",
+          "tags": [
+            "Scout"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 2,
+            "defense": 1,
+            "health": 1,
+            "element": "water",
+            "faction": "surface"
+          },
+          "content": {
+            "name": "Lanternfish Scout",
+            "ability": "Scout: reveal top card of deck.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Myctophum_punctatum_1.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Scout",
+                "description": "Scout: reveal top card of deck.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_05",
+          "rarity": "common",
+          "tags": [
+            "Scout"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 2,
+            "defense": 1,
+            "health": 1,
+            "element": "water",
+            "faction": "surface"
+          },
+          "content": {
+            "name": "Lanternfish Scout",
+            "ability": "Scout: reveal top card of deck.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Myctophum_punctatum_1.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Scout",
+                "description": "Scout: reveal top card of deck.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_06",
+          "rarity": "common",
+          "tags": [
+            "Scout"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 2,
+            "defense": 1,
+            "health": 1,
+            "element": "water",
+            "faction": "surface"
+          },
+          "content": {
+            "name": "Lanternfish Scout",
+            "ability": "Scout: reveal top card of deck.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Myctophum_punctatum_1.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Scout",
+                "description": "Scout: reveal top card of deck.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_07",
+          "rarity": "common",
+          "tags": [
+            "Guard"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 1,
+            "defense": 3,
+            "health": 3,
+            "element": "earth",
+            "faction": "coral"
+          },
+          "content": {
+            "name": "Sand Burrower",
+            "ability": "Guard: tough carapace.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Ocypode_quadrata_(Atlantic_ghost_crab).jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Guard",
+                "description": "Guard: tough carapace.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_08",
+          "rarity": "common",
+          "tags": [
+            "Guard"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 1,
+            "defense": 3,
+            "health": 3,
+            "element": "earth",
+            "faction": "coral"
+          },
+          "content": {
+            "name": "Sand Burrower",
+            "ability": "Guard: tough carapace.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Ocypode_quadrata_(Atlantic_ghost_crab).jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Guard",
+                "description": "Guard: tough carapace.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_09",
+          "rarity": "common",
+          "tags": [
+            "Guard"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 1,
+            "defense": 3,
+            "health": 3,
+            "element": "earth",
+            "faction": "coral"
+          },
+          "content": {
+            "name": "Sand Burrower",
+            "ability": "Guard: tough carapace.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Ocypode_quadrata_(Atlantic_ghost_crab).jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Guard",
+                "description": "Guard: tough carapace.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_10",
+          "rarity": "common",
+          "tags": [
+            "Devour"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 3,
+            "defense": 2,
+            "health": 2,
+            "element": "water",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Gulper Eel",
+            "ability": "Devour: +1 attack when destroying an enemy.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Eurypharynx_pelecanoides.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Devour",
+                "description": "Devour: +1 attack when destroying an enemy.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_11",
+          "rarity": "common",
+          "tags": [
+            "Devour"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 3,
+            "defense": 2,
+            "health": 2,
+            "element": "water",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Gulper Eel",
+            "ability": "Devour: +1 attack when destroying an enemy.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Eurypharynx_pelecanoides.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Devour",
+                "description": "Devour: +1 attack when destroying an enemy.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_12",
+          "rarity": "common",
+          "tags": [
+            "Devour"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 3,
+            "defense": 2,
+            "health": 2,
+            "element": "water",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Gulper Eel",
+            "ability": "Devour: +1 attack when destroying an enemy.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Eurypharynx_pelecanoides.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Devour",
+                "description": "Devour: +1 attack when destroying an enemy.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_13",
+          "rarity": "common",
+          "tags": [
+            "Bristle"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 4,
+            "health": 4,
+            "element": "water",
+            "faction": "coral"
+          },
+          "content": {
+            "name": "Coral Crab",
+            "ability": "Bristle: deals 1 damage to attacker.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Trapezia_rufopunctata.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Bristle",
+                "description": "Bristle: deals 1 damage to attacker.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_14",
+          "rarity": "common",
+          "tags": [
+            "Bristle"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 4,
+            "health": 4,
+            "element": "water",
+            "faction": "coral"
+          },
+          "content": {
+            "name": "Coral Crab",
+            "ability": "Bristle: deals 1 damage to attacker.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Trapezia_rufopunctata.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Bristle",
+                "description": "Bristle: deals 1 damage to attacker.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_15",
+          "rarity": "common",
+          "tags": [
+            "Bristle"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 4,
+            "health": 4,
+            "element": "water",
+            "faction": "coral"
+          },
+          "content": {
+            "name": "Coral Crab",
+            "ability": "Bristle: deals 1 damage to attacker.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Trapezia_rufopunctata.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Bristle",
+                "description": "Bristle: deals 1 damage to attacker.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_16",
+          "rarity": "common",
+          "tags": [
+            "Drift"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 3,
+            "health": 3,
+            "element": "water",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Dumbo Octopus",
+            "ability": "Drift: cannot be targeted by spells cost 1.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Grimpoteuthis_discovery.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Drift",
+                "description": "Drift: cannot be targeted by spells cost 1.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_17",
+          "rarity": "common",
+          "tags": [
+            "Drift"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 3,
+            "health": 3,
+            "element": "water",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Dumbo Octopus",
+            "ability": "Drift: cannot be targeted by spells cost 1.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Grimpoteuthis_discovery.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Drift",
+                "description": "Drift: cannot be targeted by spells cost 1.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_18",
+          "rarity": "common",
+          "tags": [
+            "Drift"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 3,
+            "health": 3,
+            "element": "water",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Dumbo Octopus",
+            "ability": "Drift: cannot be targeted by spells cost 1.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Grimpoteuthis_discovery.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Drift",
+                "description": "Drift: cannot be targeted by spells cost 1.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_19",
+          "rarity": "common",
+          "tags": [
+            "Strike"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 4,
+            "defense": 3,
+            "health": 3,
+            "element": "void",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Deep Lurker",
+            "ability": "Strike: hits first when attacking.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Chauliodus_sloani.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Strike",
+                "description": "Strike: hits first when attacking.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_20",
+          "rarity": "common",
+          "tags": [
+            "Strike"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 4,
+            "defense": 3,
+            "health": 3,
+            "element": "void",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Deep Lurker",
+            "ability": "Strike: hits first when attacking.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Chauliodus_sloani.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Strike",
+                "description": "Strike: hits first when attacking.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_21",
+          "rarity": "common",
+          "tags": [
+            "Strike"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 4,
+            "defense": 3,
+            "health": 3,
+            "element": "void",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Deep Lurker",
+            "ability": "Strike: hits first when attacking.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Chauliodus_sloani.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Strike",
+                "description": "Strike: hits first when attacking.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_22",
+          "rarity": "rare",
+          "tags": [
+            "Lure"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 3,
+            "defense": 5,
+            "health": 5,
+            "element": "water",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Anglerfish Lure",
+            "ability": "Lure: enemy must target this creature.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Humpback_anglerfish.png?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Lure",
+                "description": "Lure: enemy must target this creature.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_23",
+          "rarity": "rare",
+          "tags": [
+            "Lure"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 3,
+            "defense": 5,
+            "health": 5,
+            "element": "water",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Anglerfish Lure",
+            "ability": "Lure: enemy must target this creature.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Humpback_anglerfish.png?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Lure",
+                "description": "Lure: enemy must target this creature.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_24",
+          "rarity": "rare",
+          "tags": [
+            "Cloak"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 4,
+            "defense": 4,
+            "health": 4,
+            "element": "void",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Vampire Squid",
+            "ability": "Cloak: immune to single-target spells.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Vampyroteuthis_infernalis.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Cloak",
+                "description": "Cloak: immune to single-target spells.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_25",
+          "rarity": "rare",
+          "tags": [
+            "Cloak"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 4,
+            "defense": 4,
+            "health": 4,
+            "element": "void",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Vampire Squid",
+            "ability": "Cloak: immune to single-target spells.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Vampyroteuthis_infernalis.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Cloak",
+                "description": "Cloak: immune to single-target spells.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_26",
+          "rarity": "common",
+          "tags": [
+            "Stun"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 3,
+            "defense": 3,
+            "health": 3,
+            "element": "water",
+            "faction": "surface"
+          },
+          "content": {
+            "name": "Electric Ray",
+            "ability": "Stun: target creature cannot attack next turn.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Torpedo_californica_1.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Stun",
+                "description": "Stun: target creature cannot attack next turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_27",
+          "rarity": "common",
+          "tags": [
+            "Stun"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 3,
+            "defense": 3,
+            "health": 3,
+            "element": "water",
+            "faction": "surface"
+          },
+          "content": {
+            "name": "Electric Ray",
+            "ability": "Stun: target creature cannot attack next turn.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Torpedo_californica_1.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Stun",
+                "description": "Stun: target creature cannot attack next turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_28",
+          "rarity": "common",
+          "tags": [
+            "Stun"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 3,
+            "defense": 3,
+            "health": 3,
+            "element": "water",
+            "faction": "surface"
+          },
+          "content": {
+            "name": "Electric Ray",
+            "ability": "Stun: target creature cannot attack next turn.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Torpedo_californica_1.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Stun",
+                "description": "Stun: target creature cannot attack next turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_29",
+          "rarity": "rare",
+          "tags": [
+            "Taunt"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 4,
+            "defense": 6,
+            "health": 6,
+            "element": "void",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Abyssal Sentinel",
+            "ability": "Taunt: protects allied creatures.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Bathynomus_giganteus.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Taunt",
+                "description": "Taunt: protects allied creatures.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_30",
+          "rarity": "rare",
+          "tags": [
+            "Taunt"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 4,
+            "defense": 6,
+            "health": 6,
+            "element": "void",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Abyssal Sentinel",
+            "ability": "Taunt: protects allied creatures.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Bathynomus_giganteus.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Taunt",
+                "description": "Taunt: protects allied creatures.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_31",
+          "rarity": "rare",
+          "tags": [
+            "Symbiosis"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 2,
+            "defense": 8,
+            "health": 8,
+            "element": "earth",
+            "faction": "coral"
+          },
+          "content": {
+            "name": "Tube Worm Colony",
+            "ability": "Symbiosis: heals 1 health each turn.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Riftia_pachyptila.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Symbiosis",
+                "description": "Symbiosis: heals 1 health each turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_32",
+          "rarity": "rare",
+          "tags": [
+            "Symbiosis"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 2,
+            "defense": 8,
+            "health": 8,
+            "element": "earth",
+            "faction": "coral"
+          },
+          "content": {
+            "name": "Tube Worm Colony",
+            "ability": "Symbiosis: heals 1 health each turn.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Riftia_pachyptila.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Symbiosis",
+                "description": "Symbiosis: heals 1 health each turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_33",
+          "rarity": "common",
+          "tags": [
+            "Rush"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 5,
+            "defense": 4,
+            "health": 4,
+            "element": "water",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Frilled Hunter",
+            "ability": "Rush: can attack immediately on play.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Chlamydoselachus_anguineus.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Rush",
+                "description": "Rush: can attack immediately on play.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_34",
+          "rarity": "common",
+          "tags": [
+            "Rush"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 5,
+            "defense": 4,
+            "health": 4,
+            "element": "water",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Frilled Hunter",
+            "ability": "Rush: can attack immediately on play.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Chlamydoselachus_anguineus.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Rush",
+                "description": "Rush: can attack immediately on play.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_35",
+          "rarity": "common",
+          "tags": [
+            "Rush"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 5,
+            "defense": 4,
+            "health": 4,
+            "element": "water",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Frilled Hunter",
+            "ability": "Rush: can attack immediately on play.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Chlamydoselachus_anguineus.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Rush",
+                "description": "Rush: can attack immediately on play.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_36",
+          "rarity": "rare",
+          "tags": [
+            "Ancient"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 5,
+            "defense": 7,
+            "health": 7,
+            "element": "water",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Coelacanth Elder",
+            "ability": "Ancient: reduces cost of water cards by 1.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Latimeria_chalumnae01.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Ancient",
+                "description": "Ancient: reduces cost of water cards by 1.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_37",
+          "rarity": "rare",
+          "tags": [
+            "Ancient"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 5,
+            "defense": 7,
+            "health": 7,
+            "element": "water",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Coelacanth Elder",
+            "ability": "Ancient: reduces cost of water cards by 1.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Latimeria_chalumnae01.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Ancient",
+                "description": "Ancient: reduces cost of water cards by 1.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_38",
+          "rarity": "epic",
+          "tags": [
+            "Pierce"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 6,
+            "defense": 5,
+            "health": 5,
+            "element": "void",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Shadow Moray",
+            "ability": "Pierce: ignores defender armor.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Gymnothorax_funebris.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Pierce",
+                "description": "Pierce: ignores defender armor.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_39",
+          "rarity": "epic",
+          "tags": [
+            "Pierce"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 6,
+            "defense": 5,
+            "health": 5,
+            "element": "void",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Shadow Moray",
+            "ability": "Pierce: ignores defender armor.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Gymnothorax_funebris.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Pierce",
+                "description": "Pierce: ignores defender armor.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_c_40",
+          "rarity": "epic",
+          "tags": [
+            "Sweep"
+          ],
+          "gameplay": {
+            "cost": 6,
+            "attack": 6,
+            "defense": 8,
+            "health": 8,
+            "element": "water",
+            "faction": "surface"
+          },
+          "content": {
+            "name": "Giant Manta",
+            "ability": "Sweep: attacks adjacent creature lanes.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Manta_birostris-Thailand.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Sweep",
+                "description": "Sweep: attacks adjacent creature lanes.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_s_01",
+          "rarity": "common",
+          "tags": [
+            "Bounce"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "water",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Pressure Wave",
+            "ability": "Bounce: return an enemy creature of cost 3 or less to hand.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Great_Wave_off_Kanagawa2.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Bounce",
+                "description": "Bounce: return an enemy creature of cost 3 or less to hand.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_s_02",
+          "rarity": "common",
+          "tags": [
+            "Bounce"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "water",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Pressure Wave",
+            "ability": "Bounce: return an enemy creature of cost 3 or less to hand.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Great_Wave_off_Kanagawa2.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Bounce",
+                "description": "Bounce: return an enemy creature of cost 3 or less to hand.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_s_03",
+          "rarity": "common",
+          "tags": [
+            "Heal"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "water",
+            "faction": "coral"
+          },
+          "content": {
+            "name": "Tidal Healing",
+            "ability": "Heal: restore 4 health to your hero or a creature.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Coral_Outcrop_Flynn_Reef.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Heal",
+                "description": "Heal: restore 4 health to your hero or a creature.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_s_04",
+          "rarity": "common",
+          "tags": [
+            "Heal"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "water",
+            "faction": "coral"
+          },
+          "content": {
+            "name": "Tidal Healing",
+            "ability": "Heal: restore 4 health to your hero or a creature.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Coral_Outcrop_Flynn_Reef.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Heal",
+                "description": "Heal: restore 4 health to your hero or a creature.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_s_05",
+          "rarity": "common",
+          "tags": [
+            "Strike"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "water",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Frilled Strike",
+            "ability": "Strike: deal 3 damage to any enemy target.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Shark_teeth.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Strike",
+                "description": "Strike: deal 3 damage to any enemy target.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_s_06",
+          "rarity": "common",
+          "tags": [
+            "Strike"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "water",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Frilled Strike",
+            "ability": "Strike: deal 3 damage to any enemy target.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Shark_teeth.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Strike",
+                "description": "Strike: deal 3 damage to any enemy target.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_s_07",
+          "rarity": "rare",
+          "tags": [
+            "Cloak"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "void",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Ink Cloud",
+            "ability": "Cloak: grant all allied creatures Cloak for 1 turn.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Squid_ink.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Cloak",
+                "description": "Cloak: grant all allied creatures Cloak for 1 turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_s_08",
+          "rarity": "rare",
+          "tags": [
+            "Cloak"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "void",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Ink Cloud",
+            "ability": "Cloak: grant all allied creatures Cloak for 1 turn.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Squid_ink.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Cloak",
+                "description": "Cloak: grant all allied creatures Cloak for 1 turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_s_09",
+          "rarity": "rare",
+          "tags": [
+            "Damage"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "void",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Giant Squid Ambush",
+            "ability": "Damage: deal 5 damage split between enemy creatures.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Architeuthis_princeps.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Damage",
+                "description": "Damage: deal 5 damage split between enemy creatures.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_s_10",
+          "rarity": "rare",
+          "tags": [
+            "Damage"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "void",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Giant Squid Ambush",
+            "ability": "Damage: deal 5 damage split between enemy creatures.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Architeuthis_princeps.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Damage",
+                "description": "Damage: deal 5 damage split between enemy creatures.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_s_11",
+          "rarity": "epic",
+          "tags": [
+            "Tide"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "void",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Abyssal Tide",
+            "ability": "Tide: reduce attack of all enemy creatures by 2.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Tsunami_by_hokusai_19th_century.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Tide",
+                "description": "Tide: reduce attack of all enemy creatures by 2.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_s_12",
+          "rarity": "epic",
+          "tags": [
+            "Tide"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "void",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Abyssal Tide",
+            "ability": "Tide: reduce attack of all enemy creatures by 2.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Tsunami_by_hokusai_19th_century.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Tide",
+                "description": "Tide: reduce attack of all enemy creatures by 2.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_s_13",
+          "rarity": "legendary",
+          "tags": [
+            "Wipe"
+          ],
+          "gameplay": {
+            "cost": 6,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "void",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Kraken's Wrath",
+            "ability": "Wipe: destroy all creatures with cost 4 or higher.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Colossal_octopus_by_Pierre_Denys_de_Montfort.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Wipe",
+                "description": "Wipe: destroy all creatures with cost 4 or higher.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_s_14",
+          "rarity": "legendary",
+          "tags": [
+            "Wipe"
+          ],
+          "gameplay": {
+            "cost": 6,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "void",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Kraken's Wrath",
+            "ability": "Wipe: destroy all creatures with cost 4 or higher.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Colossal_octopus_by_Pierre_Denys_de_Montfort.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Wipe",
+                "description": "Wipe: destroy all creatures with cost 4 or higher.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_s_15",
+          "rarity": "rare",
+          "tags": [
+            "Blast"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "water",
+            "faction": "surface"
+          },
+          "content": {
+            "name": "Depth Charge",
+            "ability": "Blast: deal 4 direct damage to opponent face.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Depth_charge_explosion.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Blast",
+                "description": "Blast: deal 4 direct damage to opponent face.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_s_16",
+          "rarity": "rare",
+          "tags": [
+            "Blast"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "water",
+            "faction": "surface"
+          },
+          "content": {
+            "name": "Depth Charge",
+            "ability": "Blast: deal 4 direct damage to opponent face.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Depth_charge_explosion.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Blast",
+                "description": "Blast: deal 4 direct damage to opponent face.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_t_01",
+          "rarity": "rare",
+          "tags": [
+            "Terrain",
+            "Heat"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "earth",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Hydrothermal Vent",
+            "ability": "Heat: allied Abyssal creatures gain +1/+1.",
+            "flavor": "",
+            "type_line": "Terrain",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Nur04505.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Terrain",
+                "description": "Heat: allied Abyssal creatures gain +1/+1.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_t_02",
+          "rarity": "rare",
+          "tags": [
+            "Terrain"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "earth",
+            "faction": "coral"
+          },
+          "content": {
+            "name": "Black Smoker Reef",
+            "ability": "Bloom: draw a card when playing an Earth creature.",
+            "flavor": "",
+            "type_line": "Terrain",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Blacksmoker_in_Atlantic_Ocean.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Terrain",
+                "description": "Bloom: draw a card when playing an Earth creature.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_t_03",
+          "rarity": "epic",
+          "tags": [
+            "Terrain",
+            "Deep"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "void",
+            "faction": "abyssal"
+          },
+          "content": {
+            "name": "Mariana Trench",
+            "ability": "Deepen: banish an enemy creature for 2 turns.",
+            "flavor": "",
+            "type_line": "Terrain",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Challenger_Deep_(Mariana_Trench)_NOAA.png?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Terrain",
+                "description": "Deepen: banish an enemy creature for 2 turns.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "abyssal_t_04",
+          "rarity": "common",
+          "tags": [
+            "Terrain",
+            "Feed"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "earth",
+            "faction": "deep"
+          },
+          "content": {
+            "name": "Whale Fall",
+            "ability": "Feed: restore 1 mana at turn start.",
+            "flavor": "",
+            "type_line": "Terrain",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Whalefall.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Terrain",
+                "description": "Feed: restore 1 mana at turn start.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "solar_pantheon_60",
+      "name": "Solar Pantheon",
+      "theme": "Greek Mythology",
+      "rules": {
+        "elements": [
+          "light",
+          "fire",
+          "earth",
+          "void"
+        ],
+        "factions": [
+          "olympian",
+          "titan",
+          "mortal",
+          "underworld"
+        ],
+        "keywords": [
+          "Haste",
+          "Divine",
+          "Burn",
+          "Heal",
+          "Taunt",
+          "Flying",
+          "Smite",
+          "Shield",
+          "Draw",
+          "Stun"
+        ],
+        "card_types": [
+          "Creature",
+          "Spell",
+          "Terrain"
+        ],
+        "stat_ranges": {
+          "cost": {
+            "min": 0,
+            "max": 10
+          },
+          "attack": {
+            "min": 0,
+            "max": 12
+          },
+          "defense": {
+            "min": 0,
+            "max": 12
+          },
+          "health": {
+            "min": 0,
+            "max": 20
+          }
+        },
+        "ability_values": {},
+        "ability_constraints": {},
+        "synergy_bonuses": {}
+      },
+      "cards": [
+        {
+          "id": "solar_c_01",
+          "rarity": "common",
+          "tags": [
+            "Haste"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 2,
+            "defense": 1,
+            "health": 1,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Hermes Messenger",
+            "ability": "Haste: attacks on entry turn.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Hermes_Ingres.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Haste",
+                "description": "Haste: attacks on entry turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_02",
+          "rarity": "common",
+          "tags": [
+            "Haste"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 2,
+            "defense": 1,
+            "health": 1,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Hermes Messenger",
+            "ability": "Haste: attacks on entry turn.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Hermes_Ingres.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Haste",
+                "description": "Haste: attacks on entry turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_03",
+          "rarity": "common",
+          "tags": [
+            "Haste"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 2,
+            "defense": 1,
+            "health": 1,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Hermes Messenger",
+            "ability": "Haste: attacks on entry turn.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Hermes_Ingres.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Haste",
+                "description": "Haste: attacks on entry turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_04",
+          "rarity": "common",
+          "tags": [
+            "Heal"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 1,
+            "defense": 2,
+            "health": 2,
+            "element": "light",
+            "faction": "mortal"
+          },
+          "content": {
+            "name": "Temple Novice",
+            "ability": "Heal: restores 1 health to ally.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Vestal_Virgin_by_Jean_Roux.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Heal",
+                "description": "Heal: restores 1 health to ally.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_05",
+          "rarity": "common",
+          "tags": [
+            "Heal"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 1,
+            "defense": 2,
+            "health": 2,
+            "element": "light",
+            "faction": "mortal"
+          },
+          "content": {
+            "name": "Temple Novice",
+            "ability": "Heal: restores 1 health to ally.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Vestal_Virgin_by_Jean_Roux.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Heal",
+                "description": "Heal: restores 1 health to ally.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_06",
+          "rarity": "common",
+          "tags": [
+            "Heal"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 1,
+            "defense": 2,
+            "health": 2,
+            "element": "light",
+            "faction": "mortal"
+          },
+          "content": {
+            "name": "Temple Novice",
+            "ability": "Heal: restores 1 health to ally.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Vestal_Virgin_by_Jean_Roux.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Heal",
+                "description": "Heal: restores 1 health to ally.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_07",
+          "rarity": "common",
+          "tags": [
+            "Formation"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 2,
+            "defense": 2,
+            "health": 2,
+            "element": "earth",
+            "faction": "mortal"
+          },
+          "content": {
+            "name": "Spartan Recruit",
+            "ability": "Formation: +1 def if next to an ally.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Hoplite_fighting_against_Persians.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Formation",
+                "description": "Formation: +1 def if next to an ally.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_08",
+          "rarity": "common",
+          "tags": [
+            "Formation"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 2,
+            "defense": 2,
+            "health": 2,
+            "element": "earth",
+            "faction": "mortal"
+          },
+          "content": {
+            "name": "Spartan Recruit",
+            "ability": "Formation: +1 def if next to an ally.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Hoplite_fighting_against_Persians.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Formation",
+                "description": "Formation: +1 def if next to an ally.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_09",
+          "rarity": "common",
+          "tags": [
+            "Formation"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 2,
+            "defense": 2,
+            "health": 2,
+            "element": "earth",
+            "faction": "mortal"
+          },
+          "content": {
+            "name": "Spartan Recruit",
+            "ability": "Formation: +1 def if next to an ally.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Hoplite_fighting_against_Persians.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Formation",
+                "description": "Formation: +1 def if next to an ally.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_10",
+          "rarity": "common",
+          "tags": [
+            "Ranged"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 3,
+            "defense": 2,
+            "health": 2,
+            "element": "fire",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Apollo Archer",
+            "ability": "Ranged: attacks without taking retaliation.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Apollo_Belvedere_Pushkin.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Ranged",
+                "description": "Ranged: attacks without taking retaliation.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_11",
+          "rarity": "common",
+          "tags": [
+            "Ranged"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 3,
+            "defense": 2,
+            "health": 2,
+            "element": "fire",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Apollo Archer",
+            "ability": "Ranged: attacks without taking retaliation.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Apollo_Belvedere_Pushkin.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Ranged",
+                "description": "Ranged: attacks without taking retaliation.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_12",
+          "rarity": "common",
+          "tags": [
+            "Ranged"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 3,
+            "defense": 2,
+            "health": 2,
+            "element": "fire",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Apollo Archer",
+            "ability": "Ranged: attacks without taking retaliation.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Apollo_Belvedere_Pushkin.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Ranged",
+                "description": "Ranged: attacks without taking retaliation.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_13",
+          "rarity": "common",
+          "tags": [
+            "Shield"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 1,
+            "defense": 4,
+            "health": 4,
+            "element": "light",
+            "faction": "mortal"
+          },
+          "content": {
+            "name": "Shield Maiden",
+            "ability": "Shield: absorbs first damage taken.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Athena_Parthenos_Altemps_Inv8622.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Shield",
+                "description": "Shield: absorbs first damage taken.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_14",
+          "rarity": "common",
+          "tags": [
+            "Shield"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 1,
+            "defense": 4,
+            "health": 4,
+            "element": "light",
+            "faction": "mortal"
+          },
+          "content": {
+            "name": "Shield Maiden",
+            "ability": "Shield: absorbs first damage taken.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Athena_Parthenos_Altemps_Inv8622.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Shield",
+                "description": "Shield: absorbs first damage taken.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_15",
+          "rarity": "common",
+          "tags": [
+            "Shield"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 1,
+            "defense": 4,
+            "health": 4,
+            "element": "light",
+            "faction": "mortal"
+          },
+          "content": {
+            "name": "Shield Maiden",
+            "ability": "Shield: absorbs first damage taken.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Athena_Parthenos_Altemps_Inv8622.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Shield",
+                "description": "Shield: absorbs first damage taken.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_16",
+          "rarity": "rare",
+          "tags": [
+            "Regrow"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 2,
+            "health": 2,
+            "element": "earth",
+            "faction": "titan"
+          },
+          "content": {
+            "name": "Hydra Hatchling",
+            "ability": "Regrow: splits into two 1/1s upon death.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Regrow",
+                "description": "Regrow: splits into two 1/1s upon death.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_17",
+          "rarity": "rare",
+          "tags": [
+            "Regrow"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 2,
+            "health": 2,
+            "element": "earth",
+            "faction": "titan"
+          },
+          "content": {
+            "name": "Hydra Hatchling",
+            "ability": "Regrow: splits into two 1/1s upon death.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Regrow",
+                "description": "Regrow: splits into two 1/1s upon death.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_18",
+          "rarity": "common",
+          "tags": [
+            "Divine"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 3,
+            "defense": 4,
+            "health": 4,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Solar Hoplite",
+            "ability": "Divine: +1 attack against void creatures.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Divine",
+                "description": "Divine: +1 attack against void creatures.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_19",
+          "rarity": "common",
+          "tags": [
+            "Divine"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 3,
+            "defense": 4,
+            "health": 4,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Solar Hoplite",
+            "ability": "Divine: +1 attack against void creatures.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Divine",
+                "description": "Divine: +1 attack against void creatures.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_20",
+          "rarity": "common",
+          "tags": [
+            "Divine"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 3,
+            "defense": 4,
+            "health": 4,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Solar Hoplite",
+            "ability": "Divine: +1 attack against void creatures.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Divine",
+                "description": "Divine: +1 attack against void creatures.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_21",
+          "rarity": "rare",
+          "tags": [
+            "Taunt"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 5,
+            "defense": 4,
+            "health": 4,
+            "element": "earth",
+            "faction": "titan"
+          },
+          "content": {
+            "name": "Minotaur Warden",
+            "ability": "Taunt: forces enemy attackers to target it.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Taunt",
+                "description": "Taunt: forces enemy attackers to target it.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_22",
+          "rarity": "rare",
+          "tags": [
+            "Taunt"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 5,
+            "defense": 4,
+            "health": 4,
+            "element": "earth",
+            "faction": "titan"
+          },
+          "content": {
+            "name": "Minotaur Warden",
+            "ability": "Taunt: forces enemy attackers to target it.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Taunt",
+                "description": "Taunt: forces enemy attackers to target it.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_23",
+          "rarity": "rare",
+          "tags": [
+            "Bless"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 2,
+            "defense": 4,
+            "health": 4,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Sun Priestess",
+            "ability": "Bless: grants adjacent allies +1/+1.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Bless",
+                "description": "Bless: grants adjacent allies +1/+1.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_24",
+          "rarity": "rare",
+          "tags": [
+            "Bless"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 2,
+            "defense": 4,
+            "health": 4,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Sun Priestess",
+            "ability": "Bless: grants adjacent allies +1/+1.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Bless",
+                "description": "Bless: grants adjacent allies +1/+1.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_25",
+          "rarity": "common",
+          "tags": [
+            "Flying"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 3,
+            "defense": 3,
+            "health": 3,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Pegasus Scout",
+            "ability": "Flying: bypasses non-flying blockers.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Flying",
+                "description": "Flying: bypasses non-flying blockers.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_26",
+          "rarity": "common",
+          "tags": [
+            "Flying"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 3,
+            "defense": 3,
+            "health": 3,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Pegasus Scout",
+            "ability": "Flying: bypasses non-flying blockers.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Flying",
+                "description": "Flying: bypasses non-flying blockers.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_27",
+          "rarity": "common",
+          "tags": [
+            "Flying"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 3,
+            "defense": 3,
+            "health": 3,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Pegasus Scout",
+            "ability": "Flying: bypasses non-flying blockers.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Flying",
+                "description": "Flying: bypasses non-flying blockers.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_28",
+          "rarity": "rare",
+          "tags": [
+            "Crush"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 4,
+            "defense": 5,
+            "health": 5,
+            "element": "earth",
+            "faction": "titan"
+          },
+          "content": {
+            "name": "Titan Centurion",
+            "ability": "Crush: excess damage strikes opponent face.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Crush",
+                "description": "Crush: excess damage strikes opponent face.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_29",
+          "rarity": "rare",
+          "tags": [
+            "Crush"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 4,
+            "defense": 5,
+            "health": 5,
+            "element": "earth",
+            "faction": "titan"
+          },
+          "content": {
+            "name": "Titan Centurion",
+            "ability": "Crush: excess damage strikes opponent face.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Crush",
+                "description": "Crush: excess damage strikes opponent face.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_30",
+          "rarity": "epic",
+          "tags": [
+            "Multi-strike"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 5,
+            "defense": 6,
+            "health": 6,
+            "element": "void",
+            "faction": "underworld"
+          },
+          "content": {
+            "name": "Cerberus Guard",
+            "ability": "Multi-strike: hits 2 adjacent enemy slots.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Multi-strike",
+                "description": "Multi-strike: hits 2 adjacent enemy slots.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_31",
+          "rarity": "epic",
+          "tags": [
+            "Multi-strike"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 5,
+            "defense": 6,
+            "health": 6,
+            "element": "void",
+            "faction": "underworld"
+          },
+          "content": {
+            "name": "Cerberus Guard",
+            "ability": "Multi-strike: hits 2 adjacent enemy slots.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Multi-strike",
+                "description": "Multi-strike: hits 2 adjacent enemy slots.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_32",
+          "rarity": "epic",
+          "tags": [
+            "Burn"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 6,
+            "defense": 6,
+            "health": 6,
+            "element": "fire",
+            "faction": "titan"
+          },
+          "content": {
+            "name": "Promethean Titan",
+            "ability": "Burn: deals 2 damage to attacker.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Burn",
+                "description": "Burn: deals 2 damage to attacker.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_33",
+          "rarity": "epic",
+          "tags": [
+            "Burn"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 6,
+            "defense": 6,
+            "health": 6,
+            "element": "fire",
+            "faction": "titan"
+          },
+          "content": {
+            "name": "Promethean Titan",
+            "ability": "Burn: deals 2 damage to attacker.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Burn",
+                "description": "Burn: deals 2 damage to attacker.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_34",
+          "rarity": "legendary",
+          "tags": [
+            "Champion"
+          ],
+          "gameplay": {
+            "cost": 6,
+            "attack": 7,
+            "defense": 7,
+            "health": 7,
+            "element": "light",
+            "faction": "mortal"
+          },
+          "content": {
+            "name": "Achilles Hero",
+            "ability": "Champion: takes half damage from combat hits.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Champion",
+                "description": "Champion: takes half damage from combat hits.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_35",
+          "rarity": "epic",
+          "tags": [
+            "Radiance"
+          ],
+          "gameplay": {
+            "cost": 7,
+            "attack": 8,
+            "defense": 8,
+            "health": 8,
+            "element": "fire",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Helios Sun Colossus",
+            "ability": "Radiance: deals 2 damage to all enemies on entry.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Radiance",
+                "description": "Radiance: deals 2 damage to all enemies on entry.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_36",
+          "rarity": "epic",
+          "tags": [
+            "Radiance"
+          ],
+          "gameplay": {
+            "cost": 7,
+            "attack": 8,
+            "defense": 8,
+            "health": 8,
+            "element": "fire",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Helios Sun Colossus",
+            "ability": "Radiance: deals 2 damage to all enemies on entry.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Radiance",
+                "description": "Radiance: deals 2 damage to all enemies on entry.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_37",
+          "rarity": "legendary",
+          "tags": [
+            "Smite"
+          ],
+          "gameplay": {
+            "cost": 8,
+            "attack": 9,
+            "defense": 10,
+            "health": 10,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Zeus Avatar",
+            "ability": "Smite: calls lightning dealing 5 damage on entry.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Smite",
+                "description": "Smite: calls lightning dealing 5 damage on entry.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_38",
+          "rarity": "common",
+          "tags": [
+            "Shield"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 3,
+            "health": 3,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Solar Guard",
+            "ability": "Shield: absorbs 1 hit.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Shield",
+                "description": "Shield: absorbs 1 hit.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_39",
+          "rarity": "common",
+          "tags": [
+            "Shield"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 3,
+            "health": 3,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Solar Guard",
+            "ability": "Shield: absorbs 1 hit.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Shield",
+                "description": "Shield: absorbs 1 hit.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_c_40",
+          "rarity": "common",
+          "tags": [
+            "Shield"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 3,
+            "health": 3,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Solar Guard",
+            "ability": "Shield: absorbs 1 hit.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Shield",
+                "description": "Shield: absorbs 1 hit.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_s_01",
+          "rarity": "common",
+          "tags": [
+            "Burn"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "fire",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Apollo's Sun Beam",
+            "ability": "Burn: deal 3 damage to any enemy creature.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Burn",
+                "description": "Burn: deal 3 damage to any enemy creature.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_s_02",
+          "rarity": "common",
+          "tags": [
+            "Burn"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "fire",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Apollo's Sun Beam",
+            "ability": "Burn: deal 3 damage to any enemy creature.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Burn",
+                "description": "Burn: deal 3 damage to any enemy creature.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_s_03",
+          "rarity": "common",
+          "tags": [
+            "Shield"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Divine Aegis",
+            "ability": "Shield: give target allied creature Shield.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Shield",
+                "description": "Shield: give target allied creature Shield.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_s_04",
+          "rarity": "common",
+          "tags": [
+            "Shield"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Divine Aegis",
+            "ability": "Shield: give target allied creature Shield.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Shield",
+                "description": "Shield: give target allied creature Shield.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_s_05",
+          "rarity": "rare",
+          "tags": [
+            "Draw"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Athena's Wisdom",
+            "ability": "Draw: draw 2 cards from deck.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Draw",
+                "description": "Draw: draw 2 cards from deck.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_s_06",
+          "rarity": "rare",
+          "tags": [
+            "Draw"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Athena's Wisdom",
+            "ability": "Draw: draw 2 cards from deck.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Draw",
+                "description": "Draw: draw 2 cards from deck.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_s_07",
+          "rarity": "rare",
+          "tags": [
+            "Stun"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "earth",
+            "faction": "titan"
+          },
+          "content": {
+            "name": "Medusa's Gaze",
+            "ability": "Stun: target enemy creature is stunned for 1 turn.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Stun",
+                "description": "Stun: target enemy creature is stunned for 1 turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_s_08",
+          "rarity": "rare",
+          "tags": [
+            "Stun"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "earth",
+            "faction": "titan"
+          },
+          "content": {
+            "name": "Medusa's Gaze",
+            "ability": "Stun: target enemy creature is stunned for 1 turn.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Stun",
+                "description": "Stun: target enemy creature is stunned for 1 turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_s_09",
+          "rarity": "epic",
+          "tags": [
+            "Burn"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "fire",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Solar Flare",
+            "ability": "Burn: deal 3 damage to all enemy creatures.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Solar_flare_sun.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Burn",
+                "description": "Burn: deal 3 damage to all enemy creatures.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_s_10",
+          "rarity": "epic",
+          "tags": [
+            "Burn"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "fire",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Solar Flare",
+            "ability": "Burn: deal 3 damage to all enemy creatures.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Solar_flare_sun.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Burn",
+                "description": "Burn: deal 3 damage to all enemy creatures.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_s_11",
+          "rarity": "legendary",
+          "tags": [
+            "Smite"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Zeus' Thunderbolt",
+            "ability": "Smite: deal 7 damage to target enemy.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Smite",
+                "description": "Smite: deal 7 damage to target enemy.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_s_12",
+          "rarity": "legendary",
+          "tags": [
+            "Smite"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Zeus' Thunderbolt",
+            "ability": "Smite: deal 7 damage to target enemy.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "",
+            "ability_rules": [
+              {
+                "keyword": "Smite",
+                "description": "Smite: deal 7 damage to target enemy.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_s_13",
+          "rarity": "rare",
+          "tags": [
+            "Buff"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "light",
+            "faction": "mortal"
+          },
+          "content": {
+            "name": "Hero's Call",
+            "ability": "Buff: give all allied creatures +1 attack.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Achilles_carrying_armor.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Buff",
+                "description": "Buff: give all allied creatures +1 attack.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_s_14",
+          "rarity": "rare",
+          "tags": [
+            "Buff"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "light",
+            "faction": "mortal"
+          },
+          "content": {
+            "name": "Hero's Call",
+            "ability": "Buff: give all allied creatures +1 attack.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Achilles_carrying_armor.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Buff",
+                "description": "Buff: give all allied creatures +1 attack.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_s_15",
+          "rarity": "epic",
+          "tags": [
+            "Ramp"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "fire",
+            "faction": "titan"
+          },
+          "content": {
+            "name": "Prometheus' Gift",
+            "ability": "Ramp: gain 2 temporary mana this turn.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Heinrich_Fueger_1817_Prometheus_brings_fire_to_mankind.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Ramp",
+                "description": "Ramp: gain 2 temporary mana this turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_s_16",
+          "rarity": "epic",
+          "tags": [
+            "Ramp"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "fire",
+            "faction": "titan"
+          },
+          "content": {
+            "name": "Prometheus' Gift",
+            "ability": "Ramp: gain 2 temporary mana this turn.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Heinrich_Fueger_1817_Prometheus_brings_fire_to_mankind.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Ramp",
+                "description": "Ramp: gain 2 temporary mana this turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_t_01",
+          "rarity": "legendary",
+          "tags": [
+            "Terrain",
+            "Divine"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "light",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Mount Olympus",
+            "ability": "Divine: Olympian creatures cost 1 less.",
+            "flavor": "",
+            "type_line": "Terrain",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Mount_Olympus_view.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Terrain",
+                "description": "Divine: Olympian creatures cost 1 less.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_t_02",
+          "rarity": "rare",
+          "tags": [
+            "Terrain",
+            "Forge"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "fire",
+            "faction": "olympian"
+          },
+          "content": {
+            "name": "Forge of Hephaestus",
+            "ability": "Forge: allied creatures gain +1 attack.",
+            "flavor": "",
+            "type_line": "Terrain",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Vulcan%27s_Forge_by_Luca_Giordano.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Terrain",
+                "description": "Forge: allied creatures gain +1 attack.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_t_03",
+          "rarity": "rare",
+          "tags": [
+            "Terrain",
+            "Revive"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "void",
+            "faction": "underworld"
+          },
+          "content": {
+            "name": "Underworld Gate",
+            "ability": "Revive: resurrect a fallen creature.",
+            "flavor": "",
+            "type_line": "Terrain",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Rodin_The_Gates_of_Hell.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Terrain",
+                "description": "Revive: resurrect a fallen creature.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "solar_t_04",
+          "rarity": "common",
+          "tags": [
+            "Terrain",
+            "Heal"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "light",
+            "faction": "mortal"
+          },
+          "content": {
+            "name": "Temple of Apollo",
+            "ability": "Heal: restore 1 health to hero every turn.",
+            "flavor": "",
+            "type_line": "Terrain",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Temple_of_Apollo_at_Didyma.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Terrain",
+                "description": "Heal: restore 1 health to hero every turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "primeval_dominion_60",
+      "name": "Primeval Dominion",
+      "theme": "Primeval Wilds",
+      "rules": {
+        "elements": [
+          "nature",
+          "earth",
+          "stone",
+          "neutral"
+        ],
+        "factions": [
+          "beast",
+          "ancient",
+          "grove",
+          "feral"
+        ],
+        "keywords": [
+          "Rush",
+          "Taunt",
+          "Regenerate",
+          "Trample",
+          "Ramp",
+          "Enrage",
+          "Poison",
+          "Draw"
+        ],
+        "card_types": [
+          "Creature",
+          "Spell",
+          "Terrain"
+        ],
+        "stat_ranges": {
+          "cost": {
+            "min": 0,
+            "max": 10
+          },
+          "attack": {
+            "min": 0,
+            "max": 12
+          },
+          "defense": {
+            "min": 0,
+            "max": 12
+          },
+          "health": {
+            "min": 0,
+            "max": 20
+          }
+        },
+        "ability_values": {},
+        "ability_constraints": {},
+        "synergy_bonuses": {}
+      },
+      "cards": [
+        {
+          "id": "primeval_c_01",
+          "rarity": "common",
+          "tags": [
+            "Rush"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 2,
+            "defense": 1,
+            "health": 1,
+            "element": "nature",
+            "faction": "feral"
+          },
+          "content": {
+            "name": "Bramble Wolf",
+            "ability": "Rush: strikes on entry turn.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Canis_lupus_standing_in_snow.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Rush",
+                "description": "Rush: strikes on entry turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_02",
+          "rarity": "common",
+          "tags": [
+            "Rush"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 2,
+            "defense": 1,
+            "health": 1,
+            "element": "nature",
+            "faction": "feral"
+          },
+          "content": {
+            "name": "Bramble Wolf",
+            "ability": "Rush: strikes on entry turn.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Canis_lupus_standing_in_snow.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Rush",
+                "description": "Rush: strikes on entry turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_03",
+          "rarity": "common",
+          "tags": [
+            "Rush"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 2,
+            "defense": 1,
+            "health": 1,
+            "element": "nature",
+            "faction": "feral"
+          },
+          "content": {
+            "name": "Bramble Wolf",
+            "ability": "Rush: strikes on entry turn.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Canis_lupus_standing_in_snow.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Rush",
+                "description": "Rush: strikes on entry turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_04",
+          "rarity": "common",
+          "tags": [
+            "Poison"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 1,
+            "defense": 2,
+            "health": 2,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Sporeling",
+            "ability": "Poison: applies 1 damage over time.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Fly_agaric_mushroom.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Poison",
+                "description": "Poison: applies 1 damage over time.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_05",
+          "rarity": "common",
+          "tags": [
+            "Poison"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 1,
+            "defense": 2,
+            "health": 2,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Sporeling",
+            "ability": "Poison: applies 1 damage over time.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Fly_agaric_mushroom.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Poison",
+                "description": "Poison: applies 1 damage over time.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_06",
+          "rarity": "common",
+          "tags": [
+            "Poison"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 1,
+            "defense": 2,
+            "health": 2,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Sporeling",
+            "ability": "Poison: applies 1 damage over time.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Fly_agaric_mushroom.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Poison",
+                "description": "Poison: applies 1 damage over time.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_07",
+          "rarity": "common",
+          "tags": [
+            "Armor"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 1,
+            "defense": 3,
+            "health": 3,
+            "element": "stone",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Stone Mole",
+            "ability": "Armor: takes 1 less combat damage.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Talpa_europaea_MHNT.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Armor",
+                "description": "Armor: takes 1 less combat damage.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_08",
+          "rarity": "common",
+          "tags": [
+            "Armor"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 1,
+            "defense": 3,
+            "health": 3,
+            "element": "stone",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Stone Mole",
+            "ability": "Armor: takes 1 less combat damage.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Talpa_europaea_MHNT.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Armor",
+                "description": "Armor: takes 1 less combat damage.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_09",
+          "rarity": "common",
+          "tags": [
+            "Armor"
+          ],
+          "gameplay": {
+            "cost": 1,
+            "attack": 1,
+            "defense": 3,
+            "health": 3,
+            "element": "stone",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Stone Mole",
+            "ability": "Armor: takes 1 less combat damage.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Talpa_europaea_MHNT.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Armor",
+                "description": "Armor: takes 1 less combat damage.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_10",
+          "rarity": "common",
+          "tags": [
+            "Speed"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 3,
+            "defense": 2,
+            "health": 2,
+            "element": "nature",
+            "faction": "feral"
+          },
+          "content": {
+            "name": "Wild Raptor",
+            "ability": "Speed: can attack open lane directly.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Velociraptor_dinogorgon.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Speed",
+                "description": "Speed: can attack open lane directly.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_11",
+          "rarity": "common",
+          "tags": [
+            "Speed"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 3,
+            "defense": 2,
+            "health": 2,
+            "element": "nature",
+            "faction": "feral"
+          },
+          "content": {
+            "name": "Wild Raptor",
+            "ability": "Speed: can attack open lane directly.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Velociraptor_dinogorgon.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Speed",
+                "description": "Speed: can attack open lane directly.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_12",
+          "rarity": "common",
+          "tags": [
+            "Speed"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 3,
+            "defense": 2,
+            "health": 2,
+            "element": "nature",
+            "faction": "feral"
+          },
+          "content": {
+            "name": "Wild Raptor",
+            "ability": "Speed: can attack open lane directly.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Velociraptor_dinogorgon.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Speed",
+                "description": "Speed: can attack open lane directly.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_13",
+          "rarity": "common",
+          "tags": [
+            "Taunt"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 4,
+            "health": 4,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Barkskin Dryad",
+            "ability": "Taunt: protects neighboring allies.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Evelyn_De_Morgan_-_The_Dryad.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Taunt",
+                "description": "Taunt: protects neighboring allies.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_14",
+          "rarity": "common",
+          "tags": [
+            "Taunt"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 4,
+            "health": 4,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Barkskin Dryad",
+            "ability": "Taunt: protects neighboring allies.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Evelyn_De_Morgan_-_The_Dryad.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Taunt",
+                "description": "Taunt: protects neighboring allies.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_15",
+          "rarity": "common",
+          "tags": [
+            "Taunt"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 4,
+            "health": 4,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Barkskin Dryad",
+            "ability": "Taunt: protects neighboring allies.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Evelyn_De_Morgan_-_The_Dryad.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Taunt",
+                "description": "Taunt: protects neighboring allies.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_16",
+          "rarity": "rare",
+          "tags": [
+            "Regenerate"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 2,
+            "defense": 6,
+            "health": 6,
+            "element": "earth",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Ironwood Treant",
+            "ability": "Regenerate: restores 2 health each turn.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Old_oak_tree.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Regenerate",
+                "description": "Regenerate: restores 2 health each turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_17",
+          "rarity": "rare",
+          "tags": [
+            "Regenerate"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 2,
+            "defense": 6,
+            "health": 6,
+            "element": "earth",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Ironwood Treant",
+            "ability": "Regenerate: restores 2 health each turn.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Old_oak_tree.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Regenerate",
+                "description": "Regenerate: restores 2 health each turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_18",
+          "rarity": "common",
+          "tags": [
+            "Enrage"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 4,
+            "defense": 4,
+            "health": 4,
+            "element": "nature",
+            "faction": "beast"
+          },
+          "content": {
+            "name": "Feral Bear",
+            "ability": "Enrage: +2 attack when damaged.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Ursus_arctos_in_kamchatka.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Enrage",
+                "description": "Enrage: +2 attack when damaged.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_19",
+          "rarity": "common",
+          "tags": [
+            "Enrage"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 4,
+            "defense": 4,
+            "health": 4,
+            "element": "nature",
+            "faction": "beast"
+          },
+          "content": {
+            "name": "Feral Bear",
+            "ability": "Enrage: +2 attack when damaged.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Ursus_arctos_in_kamchatka.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Enrage",
+                "description": "Enrage: +2 attack when damaged.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_20",
+          "rarity": "common",
+          "tags": [
+            "Enrage"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 4,
+            "defense": 4,
+            "health": 4,
+            "element": "nature",
+            "faction": "beast"
+          },
+          "content": {
+            "name": "Feral Bear",
+            "ability": "Enrage: +2 attack when damaged.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Ursus_arctos_in_kamchatka.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Enrage",
+                "description": "Enrage: +2 attack when damaged.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_21",
+          "rarity": "rare",
+          "tags": [
+            "Ramp"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 2,
+            "defense": 3,
+            "health": 3,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Grove Tender",
+            "ability": "Ramp: gain +1 permanent max mana.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Forest_sunlight.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Ramp",
+                "description": "Ramp: gain +1 permanent max mana.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_22",
+          "rarity": "rare",
+          "tags": [
+            "Ramp"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 2,
+            "defense": 3,
+            "health": 3,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Grove Tender",
+            "ability": "Ramp: gain +1 permanent max mana.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Forest_sunlight.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Ramp",
+                "description": "Ramp: gain +1 permanent max mana.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_23",
+          "rarity": "rare",
+          "tags": [
+            "Taunt"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 4,
+            "defense": 6,
+            "health": 6,
+            "element": "stone",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Granite Golem",
+            "ability": "Taunt: absorbs attacks for the hero.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Moai_Rano_raraku.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Taunt",
+                "description": "Taunt: absorbs attacks for the hero.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_24",
+          "rarity": "rare",
+          "tags": [
+            "Taunt"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 4,
+            "defense": 6,
+            "health": 6,
+            "element": "stone",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Granite Golem",
+            "ability": "Taunt: absorbs attacks for the hero.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Moai_Rano_raraku.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Taunt",
+                "description": "Taunt: absorbs attacks for the hero.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_25",
+          "rarity": "common",
+          "tags": [
+            "Rush"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 5,
+            "defense": 4,
+            "health": 4,
+            "element": "nature",
+            "faction": "beast"
+          },
+          "content": {
+            "name": "Savage Tiger",
+            "ability": "Rush: leaps into combat immediately.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Siberian_Tiger_sf.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Rush",
+                "description": "Rush: leaps into combat immediately.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_26",
+          "rarity": "common",
+          "tags": [
+            "Rush"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 5,
+            "defense": 4,
+            "health": 4,
+            "element": "nature",
+            "faction": "beast"
+          },
+          "content": {
+            "name": "Savage Tiger",
+            "ability": "Rush: leaps into combat immediately.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Siberian_Tiger_sf.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Rush",
+                "description": "Rush: leaps into combat immediately.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_27",
+          "rarity": "common",
+          "tags": [
+            "Rush"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 5,
+            "defense": 4,
+            "health": 4,
+            "element": "nature",
+            "faction": "beast"
+          },
+          "content": {
+            "name": "Savage Tiger",
+            "ability": "Rush: leaps into combat immediately.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Siberian_Tiger_sf.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Rush",
+                "description": "Rush: leaps into combat immediately.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_28",
+          "rarity": "epic",
+          "tags": [
+            "Petrify"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 5,
+            "defense": 6,
+            "health": 6,
+            "element": "earth",
+            "faction": "beast"
+          },
+          "content": {
+            "name": "Ancient Basilisk",
+            "ability": "Petrify: target creature cannot untap.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Komodo_dragon_Rinca.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Petrify",
+                "description": "Petrify: target creature cannot untap.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_29",
+          "rarity": "epic",
+          "tags": [
+            "Petrify"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 5,
+            "defense": 6,
+            "health": 6,
+            "element": "earth",
+            "faction": "beast"
+          },
+          "content": {
+            "name": "Ancient Basilisk",
+            "ability": "Petrify: target creature cannot untap.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Komodo_dragon_Rinca.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Petrify",
+                "description": "Petrify: target creature cannot untap.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_30",
+          "rarity": "epic",
+          "tags": [
+            "Regrowth"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 6,
+            "defense": 5,
+            "health": 5,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Bramble Hydra",
+            "ability": "Regrowth: heals to full when slaying an enemy.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Lernean_Hydra_Gustave_Moreau.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Regrowth",
+                "description": "Regrowth: heals to full when slaying an enemy.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_31",
+          "rarity": "epic",
+          "tags": [
+            "Regrowth"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 6,
+            "defense": 5,
+            "health": 5,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Bramble Hydra",
+            "ability": "Regrowth: heals to full when slaying an enemy.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Lernean_Hydra_Gustave_Moreau.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Regrowth",
+                "description": "Regrowth: heals to full when slaying an enemy.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_32",
+          "rarity": "epic",
+          "tags": [
+            "Trample"
+          ],
+          "gameplay": {
+            "cost": 6,
+            "attack": 7,
+            "defense": 8,
+            "health": 8,
+            "element": "earth",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Colossus of Roots",
+            "ability": "Trample: excess damage hits hero face.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Banyan_tree_roots.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Trample",
+                "description": "Trample: excess damage hits hero face.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_33",
+          "rarity": "epic",
+          "tags": [
+            "Trample"
+          ],
+          "gameplay": {
+            "cost": 6,
+            "attack": 7,
+            "defense": 8,
+            "health": 8,
+            "element": "earth",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Colossus of Roots",
+            "ability": "Trample: excess damage hits hero face.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Banyan_tree_roots.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Trample",
+                "description": "Trample: excess damage hits hero face.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_34",
+          "rarity": "legendary",
+          "tags": [
+            "Crush"
+          ],
+          "gameplay": {
+            "cost": 7,
+            "attack": 8,
+            "defense": 9,
+            "health": 9,
+            "element": "earth",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Apex Mammoth",
+            "ability": "Crush: sweeps through enemy defenses.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Mammuthus_primigenius_remains.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Crush",
+                "description": "Crush: sweeps through enemy defenses.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_35",
+          "rarity": "legendary",
+          "tags": [
+            "Overgrowth"
+          ],
+          "gameplay": {
+            "cost": 8,
+            "attack": 9,
+            "defense": 11,
+            "health": 11,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Primeval World-Tree",
+            "ability": "Overgrowth: summons two 4/4 Treants.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Yggdrasil_by_Oluf_Bagge.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Overgrowth",
+                "description": "Overgrowth: summons two 4/4 Treants.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_36",
+          "rarity": "common",
+          "tags": [
+            "Quick"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 2,
+            "health": 2,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Forest Spriggan",
+            "ability": "Quick: early dropped scout.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Red_squirrel_in_woodland.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Quick",
+                "description": "Quick: early dropped scout.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_37",
+          "rarity": "common",
+          "tags": [
+            "Quick"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 2,
+            "health": 2,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Forest Spriggan",
+            "ability": "Quick: early dropped scout.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Red_squirrel_in_woodland.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Quick",
+                "description": "Quick: early dropped scout.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_38",
+          "rarity": "common",
+          "tags": [
+            "Quick"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 2,
+            "health": 2,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Forest Spriggan",
+            "ability": "Quick: early dropped scout.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Red_squirrel_in_woodland.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Quick",
+                "description": "Quick: early dropped scout.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_39",
+          "rarity": "common",
+          "tags": [
+            "Quick"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 2,
+            "health": 2,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Forest Spriggan",
+            "ability": "Quick: early dropped scout.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Red_squirrel_in_woodland.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Quick",
+                "description": "Quick: early dropped scout.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_c_40",
+          "rarity": "common",
+          "tags": [
+            "Quick"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 2,
+            "defense": 2,
+            "health": 2,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Forest Spriggan",
+            "ability": "Quick: early dropped scout.",
+            "flavor": "",
+            "type_line": "Creature",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Red_squirrel_in_woodland.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Quick",
+                "description": "Quick: early dropped scout.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_s_01",
+          "rarity": "common",
+          "tags": [
+            "Poison"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Noxious Spores",
+            "ability": "Poison: deals 2 damage to two enemy creatures.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Puffball_spores.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Poison",
+                "description": "Poison: deals 2 damage to two enemy creatures.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_s_02",
+          "rarity": "common",
+          "tags": [
+            "Poison"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Noxious Spores",
+            "ability": "Poison: deals 2 damage to two enemy creatures.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Puffball_spores.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Poison",
+                "description": "Poison: deals 2 damage to two enemy creatures.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_s_03",
+          "rarity": "common",
+          "tags": [
+            "Buff"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "nature",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Barkskin Infusion",
+            "ability": "Buff: grants target ally +1/+3.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Tree_bark_texture.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Buff",
+                "description": "Buff: grants target ally +1/+3.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_s_04",
+          "rarity": "common",
+          "tags": [
+            "Buff"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "nature",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Barkskin Infusion",
+            "ability": "Buff: grants target ally +1/+3.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Tree_bark_texture.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Buff",
+                "description": "Buff: grants target ally +1/+3.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_s_05",
+          "rarity": "common",
+          "tags": [
+            "Buff"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "nature",
+            "faction": "beast"
+          },
+          "content": {
+            "name": "Primal Roar",
+            "ability": "Buff: all allied beasts gain +2 attack this turn.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Roaring_lion.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Buff",
+                "description": "Buff: all allied beasts gain +2 attack this turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_s_06",
+          "rarity": "common",
+          "tags": [
+            "Buff"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "nature",
+            "faction": "beast"
+          },
+          "content": {
+            "name": "Primal Roar",
+            "ability": "Buff: all allied beasts gain +2 attack this turn.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Roaring_lion.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Buff",
+                "description": "Buff: all allied beasts gain +2 attack this turn.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_s_07",
+          "rarity": "rare",
+          "tags": [
+            "Ramp"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Wild Growth",
+            "ability": "Ramp: permanently increases max mana by 1.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Fern_unfurling.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Ramp",
+                "description": "Ramp: permanently increases max mana by 1.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_s_08",
+          "rarity": "rare",
+          "tags": [
+            "Ramp"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Wild Growth",
+            "ability": "Ramp: permanently increases max mana by 1.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Fern_unfurling.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Ramp",
+                "description": "Ramp: permanently increases max mana by 1.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_s_09",
+          "rarity": "rare",
+          "tags": [
+            "Stun"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "earth",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Entangling Roots",
+            "ability": "Stun: immobilizes 2 enemy creatures.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Mangrove_roots_water.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Stun",
+                "description": "Stun: immobilizes 2 enemy creatures.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_s_10",
+          "rarity": "rare",
+          "tags": [
+            "Stun"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "earth",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Entangling Roots",
+            "ability": "Stun: immobilizes 2 enemy creatures.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Mangrove_roots_water.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Stun",
+                "description": "Stun: immobilizes 2 enemy creatures.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_s_11",
+          "rarity": "epic",
+          "tags": [
+            "Damage"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "nature",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Nature's Wrath",
+            "ability": "Damage: deals 5 damage to target enemy.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Storm_over_lake.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Damage",
+                "description": "Damage: deals 5 damage to target enemy.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_s_12",
+          "rarity": "epic",
+          "tags": [
+            "Damage"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "nature",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Nature's Wrath",
+            "ability": "Damage: deals 5 damage to target enemy.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Storm_over_lake.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Damage",
+                "description": "Damage: deals 5 damage to target enemy.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_s_13",
+          "rarity": "epic",
+          "tags": [
+            "Wipe"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "stone",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Cataclysmic Quake",
+            "ability": "Wipe: deals 4 damage to all board creatures.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/San_Francisco_earthquake_1906.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Wipe",
+                "description": "Wipe: deals 4 damage to all board creatures.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_s_14",
+          "rarity": "epic",
+          "tags": [
+            "Wipe"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "stone",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Cataclysmic Quake",
+            "ability": "Wipe: deals 4 damage to all board creatures.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/San_Francisco_earthquake_1906.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Wipe",
+                "description": "Wipe: deals 4 damage to all board creatures.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_s_15",
+          "rarity": "legendary",
+          "tags": [
+            "Draw",
+            "Heal"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Primal Bloom",
+            "ability": "Draw: draw 3 cards and restore 4 health.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Rafflesia_arnoldii_flower.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Draw",
+                "description": "Draw: draw 3 cards and restore 4 health.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_s_16",
+          "rarity": "legendary",
+          "tags": [
+            "Draw",
+            "Heal"
+          ],
+          "gameplay": {
+            "cost": 4,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Primal Bloom",
+            "ability": "Draw: draw 3 cards and restore 4 health.",
+            "flavor": "",
+            "type_line": "Spell",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Rafflesia_arnoldii_flower.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Draw",
+                "description": "Draw: draw 3 cards and restore 4 health.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_t_01",
+          "rarity": "rare",
+          "tags": [
+            "Terrain"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Ancient Canopy",
+            "ability": "Cover: ranged attacks cannot hit your hero.",
+            "flavor": "",
+            "type_line": "Terrain",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Rainforest_canopy.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Terrain",
+                "description": "Cover: ranged attacks cannot hit your hero.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_t_02",
+          "rarity": "common",
+          "tags": [
+            "Terrain",
+            "Heal"
+          ],
+          "gameplay": {
+            "cost": 2,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "nature",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Primal Spring",
+            "ability": "Heal: restore 2 health to lowest health creature.",
+            "flavor": "",
+            "type_line": "Terrain",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Forest_waterfall_stream.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Terrain",
+                "description": "Heal: restore 2 health to lowest health creature.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_t_03",
+          "rarity": "rare",
+          "tags": [
+            "Terrain",
+            "Fortify"
+          ],
+          "gameplay": {
+            "cost": 3,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "stone",
+            "faction": "ancient"
+          },
+          "content": {
+            "name": "Stone Monolith",
+            "ability": "Fortify: all creatures gain +1 defense.",
+            "flavor": "",
+            "type_line": "Terrain",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Stonehenge_closeup.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Terrain",
+                "description": "Fortify: all creatures gain +1 defense.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        },
+        {
+          "id": "primeval_t_04",
+          "rarity": "legendary",
+          "tags": [
+            "Terrain",
+            "Ramp"
+          ],
+          "gameplay": {
+            "cost": 5,
+            "attack": 0,
+            "defense": 0,
+            "health": 0,
+            "element": "nature",
+            "faction": "grove"
+          },
+          "content": {
+            "name": "Heart of the Wild",
+            "ability": "Overgrow: spells cost 1 less mana.",
+            "flavor": "",
+            "type_line": "Terrain",
+            "artwork": "https://en.wikipedia.org/wiki/Special:FilePath/Deep_forest_green.jpg?width=600",
+            "ability_rules": [
+              {
+                "keyword": "Terrain",
+                "description": "Overgrow: spells cost 1 less mana.",
+                "allowed_types": [],
+                "blocked_types": [],
+                "min_rarity": null,
+                "max_rarity": null
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
