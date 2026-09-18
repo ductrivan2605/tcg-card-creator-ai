@@ -124,6 +124,8 @@ backend/
 frontend/      the deck-builder UI
 infra/         Docker Compose, nginx config
 ```
+## This project is created by Bun Real Cua of the year 2026 from RMIT
+All credits belong to me, Minh Cao Duy, Dai Vu Phat, Khang Truong Pham Vinh and Tuan Nguyen Anh
 
 ## Models
 
