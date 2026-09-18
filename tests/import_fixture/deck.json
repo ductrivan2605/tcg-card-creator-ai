@@ -1,0 +1,266 @@
+{
+    "version":  "0.8",
+    "id":  "ability_rules_fixture",
+    "name":  "Ability Rules Fixture",
+    "locale":  "en",
+    "template":  {
+                     "id":  "tcg_v1",
+                     "frontBg":  "",
+                     "backBg":  "",
+                     "front":  {
+                                   "slots":  [
+                                                 {
+                                                     "id":  "frontBg",
+                                                     "type":  "image",
+                                                     "x":  0,
+                                                     "y":  0,
+                                                     "w":  400,
+                                                     "h":  560,
+                                                     "z":  0,
+                                                     "fit":  "cover"
+                                                 },
+                                                 {
+                                                     "id":  "artwork",
+                                                     "type":  "image",
+                                                     "x":  12,
+                                                     "y":  52,
+                                                     "w":  376,
+                                                     "h":  192,
+                                                     "z":  1,
+                                                     "fit":  "cover"
+                                                 },
+                                                 {
+                                                     "id":  "name",
+                                                     "type":  "text",
+                                                     "x":  12,
+                                                     "y":  12,
+                                                     "w":  340,
+                                                     "h":  32,
+                                                     "z":  10,
+                                                     "fontFamily":  "Cinzel",
+                                                     "fontSize":  19,
+                                                     "fontWeight":  "bold",
+                                                     "fontColor":  "#9af1f9",
+                                                     "align":  "left",
+                                                     "wrap":  false
+                                                 },
+                                                 {
+                                                     "id":  "cost",
+                                                     "type":  "stat",
+                                                     "x":  346,
+                                                     "y":  8,
+                                                     "w":  46,
+                                                     "h":  46,
+                                                     "z":  10,
+                                                     "statShape":  "circle",
+                                                     "statBg":  "#0a4d5e",
+                                                     "statColor":  "#ffffff",
+                                                     "statSize":  22,
+                                                     "statLabel":  ""
+                                                 },
+                                                 {
+                                                     "id":  "typeLine",
+                                                     "type":  "text",
+                                                     "x":  12,
+                                                     "y":  252,
+                                                     "w":  376,
+                                                     "h":  20,
+                                                     "z":  10,
+                                                     "fontFamily":  "JetBrains Mono",
+                                                     "fontSize":  10,
+                                                     "fontColor":  "#67d9e6",
+                                                     "align":  "left",
+                                                     "wrap":  false
+                                                 },
+                                                 {
+                                                     "id":  "ability",
+                                                     "type":  "text",
+                                                     "x":  12,
+                                                     "y":  280,
+                                                     "w":  376,
+                                                     "h":  96,
+                                                     "z":  10,
+                                                     "fontFamily":  "Inter",
+                                                     "fontSize":  12,
+                                                     "fontColor":  "#cce6ee",
+                                                     "align":  "left",
+                                                     "wrap":  true
+                                                 },
+                                                 {
+                                                     "id":  "flavor",
+                                                     "type":  "text",
+                                                     "x":  12,
+                                                     "y":  384,
+                                                     "w":  376,
+                                                     "h":  70,
+                                                     "z":  10,
+                                                     "fontFamily":  "Inter",
+                                                     "fontSize":  11,
+                                                     "fontColor":  "#7aaabb",
+                                                     "fontItalic":  true,
+                                                     "align":  "left",
+                                                     "wrap":  true
+                                                 },
+                                                 {
+                                                     "id":  "attack",
+                                                     "type":  "stat",
+                                                     "x":  14,
+                                                     "y":  504,
+                                                     "w":  52,
+                                                     "h":  46,
+                                                     "z":  11,
+                                                     "statShape":  "circle",
+                                                     "statBg":  "#6e1a1a",
+                                                     "statColor":  "#ffffff",
+                                                     "statSize":  18,
+                                                     "statLabel":  "ATK"
+                                                 },
+                                                 {
+                                                     "id":  "defense",
+                                                     "type":  "stat",
+                                                     "x":  334,
+                                                     "y":  504,
+                                                     "w":  52,
+                                                     "h":  46,
+                                                     "z":  11,
+                                                     "statShape":  "circle",
+                                                     "statBg":  "#1a4d78",
+                                                     "statColor":  "#ffffff",
+                                                     "statSize":  18,
+                                                     "statLabel":  "DEF"
+                                                 }
+                                             ]
+                               },
+                     "back":  {
+                                  "slots":  [
+                                                {
+                                                    "id":  "backBg",
+                                                    "type":  "image",
+                                                    "x":  0,
+                                                    "y":  0,
+                                                    "w":  400,
+                                                    "h":  560,
+                                                    "z":  0,
+                                                    "fit":  "cover"
+                                                },
+                                                {
+                                                    "id":  "backLogo",
+                                                    "type":  "image",
+                                                    "x":  125,
+                                                    "y":  180,
+                                                    "w":  150,
+                                                    "h":  150,
+                                                    "z":  2,
+                                                    "fit":  "contain"
+                                                },
+                                                {
+                                                    "id":  "backTitle",
+                                                    "type":  "text",
+                                                    "x":  40,
+                                                    "y":  350,
+                                                    "w":  320,
+                                                    "h":  48,
+                                                    "z":  3,
+                                                    "fontFamily":  "Cinzel",
+                                                    "fontSize":  32,
+                                                    "fontWeight":  "700",
+                                                    "fontColor":  "#67d9e6",
+                                                    "align":  "center",
+                                                    "wrap":  false
+                                                }
+                                            ]
+                              }
+                 },
+    "rules":  {
+                  "elements":  [
+                                   "water",
+                                   "void",
+                                   "earth",
+                                   "neutral"
+                               ],
+                  "factions":  [
+                                   "abyssal",
+                                   "deep",
+                                   "surface",
+                                   "coral"
+                               ],
+                  "cardTypes":  [
+                                    "Creature",
+                                    "Spell",
+                                    "Terrain"
+                                ],
+                  "rarities":  [
+                                   {
+                                       "id":  "common",
+                                       "label":  "Common",
+                                       "color":  "#b8c8d2"
+                                   },
+                                   {
+                                       "id":  "rare",
+                                       "label":  "Rare",
+                                       "color":  "#6ea8fe"
+                                   }
+                               ],
+                  "ability_values":  {
+                                         "Fly":  1.5,
+                                         "Guard":  1.0
+                                     },
+                  "ability_constraints":  {
+                                              "Fly":  {
+                                                          "allowed_types":  [
+                                                                                "Creature"
+                                                                            ],
+                                                          "blocked_types":  [
+                                                                                "Terrain"
+                                                                            ],
+                                                          "min_rarity":  "rare"
+                                                      }
+                                          },
+                  "synergy_bonuses":  {
+                                          "type:Creature":  0.5,
+                                          "element:water":  0.5
+                                      },
+                  "rarity_bounds":  {
+                                        "common":  {
+                                                       "cost":  [
+                                                                    1,
+                                                                    2
+                                                                ],
+                                                       "attack":  [
+                                                                      1,
+                                                                      2
+                                                                  ],
+                                                       "defense":  [
+                                                                       1,
+                                                                       2
+                                                                   ],
+                                                       "health":  [
+                                                                      1,
+                                                                      2
+                                                                  ]
+                                                   },
+                                        "rare":  {
+                                                     "cost":  [
+                                                                  2,
+                                                                  4
+                                                              ],
+                                                     "attack":  [
+                                                                    2,
+                                                                    4
+                                                                ],
+                                                     "defense":  [
+                                                                     2,
+                                                                     4
+                                                                 ],
+                                                     "health":  [
+                                                                    2,
+                                                                    4
+                                                                ]
+                                                 }
+                                    },
+                  "cost_to_power_ratio":  {
+                                              "common":  2.0,
+                                              "rare":  2.5
+                                          }
+              }
+}

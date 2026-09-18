@@ -1,0 +1,44 @@
+{
+  "version": "0.8",
+  "deckId": "ability_rules_fixture",
+  "count": 1,
+  "cards": [
+    {
+      "id": "fixture_001",
+      "rarity": "rare",
+      "tags": ["Fly", "Water"],
+      "gameplay": {
+        "cost": 3,
+        "attack": 3,
+        "defense": 2,
+        "health": 2,
+        "element": "water",
+        "faction": "deep"
+      },
+      "metadata": {
+        "artist": "Fixture",
+        "set": "Local Test Set",
+        "serial": "FX01",
+        "collectorNumber": 1
+      },
+      "content": {
+        "name": "Aerial Scout",
+        "ability": "Fly: may attack over grounded blockers.",
+        "flavor": "A watcher above the trench.",
+        "typeLine": "Creature",
+        "artwork": "",
+        "ability_rules": [
+          {
+            "keyword": "Fly",
+            "description": "May attack over blockers.",
+            "allowed_types": ["Creature"],
+            "blocked_types": ["Terrain"],
+            "min_rarity": "rare"
+          }
+        ]
+      },
+      "overrides": {},
+      "extraLayers": []
+    }
+  ]
+}
