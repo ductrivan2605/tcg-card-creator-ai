@@ -1,5 +1,4 @@
 # TCG Balance Engine
-
 A backend service that designs and balances trading-card decks. An agent
 turns a theme into a deck, then a hybrid balance loop tunes it: a genetic
 algorithm simulates deck performance, and an LLM reads the results and
@@ -124,11 +123,9 @@ backend/
 frontend/      the deck-builder UI
 infra/         Docker Compose, nginx config
 ```
-## This project is created by Bun Real Cua of the year 2026 from RMIT
-All credits belong to me, Minh Cao Duy, Dai Vu Phat, Khang Truong Pham Vinh and Tuan Nguyen Anh
-
 ## Models
-
 - Text (rules, cards, balance decisions): `gemini-2.5-flash`
 - Artwork: `imagen-4.0-generate-001` or `pollinations` — requires a billed Google Cloud
   account for the `imagen` model ; a free API key use pollinations instead.
+### This project is created by team Bun Real Cua of the year 2026 from RMIT
+All credits belong to me, Minh Cao Duy, Dai Vu Phat, Khang Truong Pham Vinh and Tuan Nguyen Anh
