@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="20" fill="#2b2f4a"/>
+  <rect x="24" y="16" width="80" height="96" rx="8" fill="#f4e9d8" stroke="#c9a24b" stroke-width="4"/>
+  <circle cx="64" cy="52" r="18" fill="#c9a24b"/>
+  <text x="64" y="94" font-family="sans-serif" font-size="16" fill="#2b2f4a" text-anchor="middle">TCG</text>
+</svg>

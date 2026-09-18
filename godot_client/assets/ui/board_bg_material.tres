@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3]
+
+[ext_resource type="Shader" path="res://scripts/battle/board_bg.gdshader" id="1"]
+
+[resource]
+shader = ExtResource("1")
+shader_parameter/rect_size = Vector2(800, 600)
+shader_parameter/base_color = Color(0.031, 0.129, 0.192, 1)
+shader_parameter/grid_color = Color(0.404, 0.851, 0.902, 0.05)
+shader_parameter/cell_size = 38.0
+shader_parameter/vignette_color = Color(0.012, 0.063, 0.102, 0.6)

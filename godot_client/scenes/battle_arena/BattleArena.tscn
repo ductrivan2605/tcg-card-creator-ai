@@ -1,0 +1,647 @@
+[gd_scene load_steps=17 format=3]
+
+[ext_resource type="Script" path="res://scenes/battle_arena/BattleArena.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/icons/arrow-left.svg" id="2"]
+[ext_resource type="Texture2D" path="res://assets/icons/help-circle.svg" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/components/CardDetailsPanel.tscn" id="4"]
+[ext_resource type="Texture2D" path="res://assets/icons/settings.svg" id="5"]
+[ext_resource type="Texture2D" path="res://assets/icons/sword.svg" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/components/EffectNotification.tscn" id="7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleArena"]
+bg_color = Color(0.0705882, 0.0784314, 0.164706, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleTopBar"]
+bg_color = Color(0.0588235, 0.0588235, 0.141176, 1)
+border_width_bottom = 1
+border_color = Color(0.109804, 0.109804, 0.227451, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleSidebar"]
+bg_color = Color(0.0588235, 0.0588235, 0.141176, 1)
+border_width_left = 1
+border_color = Color(0.109804, 0.109804, 0.227451, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleTabBar"]
+bg_color = Color(0.054902, 0.054902, 0.12549, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleIconButton"]
+bg_color = Color(0.113725, 0.113725, 0.239216, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.164706, 0.192157, 0.368627, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+content_margin_left = 8.0
+content_margin_top = 8.0
+content_margin_right = 8.0
+content_margin_bottom = 8.0
+
+[sub_resource type="StyleBoxFlat" id="StylePhase"]
+bg_color = Color(1, 0.843137, 0, 0.1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 0.843137, 0, 0.6)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleNotice"]
+bg_color = Color(0.545098, 0.360784, 0.964706, 0.12)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.545098, 0.360784, 0.964706, 0.45)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleButton"]
+bg_color = Color(0.113725, 0.113725, 0.239216, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.164706, 0.192157, 0.368627, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+content_margin_left = 14.0
+content_margin_top = 10.0
+content_margin_right = 14.0
+content_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleEndTurn"]
+bg_color = Color(0, 0.831373, 1, 0.15)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0.831373, 1, 0.5)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+content_margin_left = 18.0
+content_margin_top = 10.0
+content_margin_right = 18.0
+content_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleSurrender"]
+bg_color = Color(0.898039, 0.541176, 0.603922, 0.08)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.898039, 0.541176, 0.603922, 0.3)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+content_margin_left = 14.0
+content_margin_top = 10.0
+content_margin_right = 14.0
+content_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleConfirmYes"]
+bg_color = Color(0, 1, 0.4, 0.1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 1, 0.4, 0.5)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+content_margin_left = 14.0
+content_margin_top = 10.0
+content_margin_right = 14.0
+content_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleScrim"]
+bg_color = Color(0, 0, 0, 0.78)
+
+[sub_resource type="StyleBoxFlat" id="StyleResult"]
+bg_color = Color(0.0588235, 0.0588235, 0.141176, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(1, 0.843137, 0, 0.65)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+content_margin_left = 40.0
+content_margin_top = 32.0
+content_margin_right = 40.0
+content_margin_bottom = 28.0
+shadow_color = Color(1, 0.843137, 0, 0.22)
+shadow_size = 22
+
+[sub_resource type="StyleBoxEmpty" id="StyleFocus"]
+
+[node name="BattleArena" type="PanelContainer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme_override_styles/panel = SubResource("StyleArena")
+script = ExtResource("1")
+
+[node name="Root" type="HBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="MainColumn" type="VBoxContainer" parent="Root"]
+custom_minimum_size = Vector2(1120, 0)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 0
+
+[node name="HeaderTopBar" type="PanelContainer" parent="Root/MainColumn"]
+custom_minimum_size = Vector2(0, 58)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleTopBar")
+
+[node name="HeaderMargin" type="MarginContainer" parent="Root/MainColumn/HeaderTopBar"]
+layout_mode = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_right = 24
+
+[node name="HeaderRow" type="HBoxContainer" parent="Root/MainColumn/HeaderTopBar/HeaderMargin"]
+layout_mode = 2
+
+[node name="HeaderLeft" type="HBoxContainer" parent="Root/MainColumn/HeaderTopBar/HeaderMargin/HeaderRow"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Identity" type="VBoxContainer" parent="Root/MainColumn/HeaderTopBar/HeaderMargin/HeaderRow/HeaderLeft"]
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_constants/separation = 2
+
+[node name="SubtitleLabel" type="Label" parent="Root/MainColumn/HeaderTopBar/HeaderMargin/HeaderRow/HeaderLeft/Identity"]
+unique_name_in_owner = true
+theme_type_variation = &"MonoBold"
+layout_mode = 2
+theme_override_colors/font_color = Color(0.545098, 0.360784, 0.964706, 1)
+theme_override_font_sizes/font_size = 11
+text = "BATTLE ARENA // SETUP"
+
+[node name="TitleLabel" type="Label" parent="Root/MainColumn/HeaderTopBar/HeaderMargin/HeaderRow/HeaderLeft/Identity"]
+unique_name_in_owner = true
+theme_type_variation = &"GeistTitle"
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Player vs AI"
+
+[node name="PhaseCenter" type="CenterContainer" parent="Root/MainColumn/HeaderTopBar/HeaderMargin/HeaderRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="PhaseBanner" type="PanelContainer" parent="Root/MainColumn/HeaderTopBar/HeaderMargin/HeaderRow/PhaseCenter"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_styles/panel = SubResource("StylePhase")
+
+[node name="PhaseMargin" type="MarginContainer" parent="Root/MainColumn/HeaderTopBar/HeaderMargin/HeaderRow/PhaseCenter/PhaseBanner"]
+layout_mode = 2
+theme_override_constants/margin_left = 14
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 14
+theme_override_constants/margin_bottom = 8
+
+[node name="PhaseLabel" type="Label" parent="Root/MainColumn/HeaderTopBar/HeaderMargin/HeaderRow/PhaseCenter/PhaseBanner/PhaseMargin"]
+unique_name_in_owner = true
+theme_type_variation = &"MonoBold"
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.843137, 0, 1)
+theme_override_font_sizes/font_size = 10
+text = "TURN 0 · SETUP"
+
+[node name="Toolbar" type="HBoxContainer" parent="Root/MainColumn/HeaderTopBar/HeaderMargin/HeaderRow"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="HelpButton" type="Button" parent="Root/MainColumn/HeaderTopBar/HeaderMargin/HeaderRow/Toolbar"]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_styles/normal = SubResource("StyleIconButton")
+theme_override_styles/hover = SubResource("StyleIconButton")
+theme_override_styles/pressed = SubResource("StyleIconButton")
+theme_override_styles/focus = SubResource("StyleFocus")
+icon = ExtResource("3")
+icon_max_width = 14
+expand_icon = true
+
+[node name="SettingsButton" type="Button" parent="Root/MainColumn/HeaderTopBar/HeaderMargin/HeaderRow/Toolbar"]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_styles/normal = SubResource("StyleIconButton")
+theme_override_styles/hover = SubResource("StyleIconButton")
+theme_override_styles/pressed = SubResource("StyleIconButton")
+theme_override_styles/focus = SubResource("StyleFocus")
+icon = ExtResource("5")
+icon_max_width = 14
+expand_icon = true
+
+[node name="GameMargin" type="MarginContainer" parent="Root/MainColumn"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 20
+
+[node name="GameArea" type="VBoxContainer" parent="Root/MainColumn/GameMargin"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 8
+
+[node name="OpponentInfo" type="HBoxContainer" parent="Root/MainColumn/GameMargin/GameArea"]
+layout_mode = 2
+
+[node name="OpponentBarSlot" type="MarginContainer" parent="Root/MainColumn/GameMargin/GameArea/OpponentInfo"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="OpponentInfoSpacer" type="Control" parent="Root/MainColumn/GameMargin/GameArea/OpponentInfo"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="OpponentHandBlock" type="VBoxContainer" parent="Root/MainColumn/GameMargin/GameArea/OpponentInfo"]
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_constants/separation = 4
+
+[node name="OpponentHandLabel" type="Label" parent="Root/MainColumn/GameMargin/GameArea/OpponentInfo/OpponentHandBlock"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"MonoLabel"
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 2
+text = "AI Hand (0 cards)"
+
+[node name="OpponentHandRow" type="HBoxContainer" parent="Root/MainColumn/GameMargin/GameArea/OpponentInfo/OpponentHandBlock"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="StateNotice" type="PanelContainer" parent="Root/MainColumn/GameMargin/GameArea"]
+unique_name_in_owner = true
+visible = false
+custom_minimum_size = Vector2(0, 24)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleNotice")
+
+[node name="StateNoticeLabel" type="Label" parent="Root/MainColumn/GameMargin/GameArea/StateNotice"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"MonoBold"
+theme_override_colors/font_color = Color(0.666667, 0.533333, 0.972549, 1)
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+vertical_alignment = 1
+text = "AI is evaluating moves..."
+
+[node name="EnemyBoardRow" type="HBoxContainer" parent="Root/MainColumn/GameMargin/GameArea"]
+unique_name_in_owner = true
+layout_mode = 2
+alignment = 1
+theme_override_constants/separation = 16
+
+[node name="ClashLine" type="HBoxContainer" parent="Root/MainColumn/GameMargin/GameArea"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="LineLeft" type="HSeparator" parent="Root/MainColumn/GameMargin/GameArea/ClashLine"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+
+[node name="ClashIcon" type="TextureRect" parent="Root/MainColumn/GameMargin/GameArea/ClashLine"]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+texture = ExtResource("6")
+expand_mode = 1
+stretch_mode = 5
+modulate = Color(0.384314, 0.403922, 0.580392, 1)
+
+[node name="LineRight" type="HSeparator" parent="Root/MainColumn/GameMargin/GameArea/ClashLine"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+
+[node name="PlayerBoardRow" type="HBoxContainer" parent="Root/MainColumn/GameMargin/GameArea"]
+unique_name_in_owner = true
+layout_mode = 2
+alignment = 1
+theme_override_constants/separation = 16
+
+[node name="HandBlock" type="VBoxContainer" parent="Root/MainColumn/GameMargin/GameArea"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 4
+
+[node name="HandLabel" type="Label" parent="Root/MainColumn/GameMargin/GameArea/HandBlock"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"MonoLabel"
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+text = "Your Hand (0 cards)"
+
+[node name="HandCenter" type="CenterContainer" parent="Root/MainColumn/GameMargin/GameArea/HandBlock"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="HandScroll" type="ScrollContainer" parent="Root/MainColumn/GameMargin/GameArea/HandBlock/HandCenter"]
+custom_minimum_size = Vector2(640, 182)
+layout_mode = 2
+horizontal_scroll_mode = 3
+vertical_scroll_mode = 0
+
+[node name="HandRow" type="HBoxContainer" parent="Root/MainColumn/GameMargin/GameArea/HandBlock/HandCenter/HandScroll"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 1
+theme_override_constants/separation = -24
+
+[node name="BottomInfo" type="HBoxContainer" parent="Root/MainColumn/GameMargin/GameArea"]
+layout_mode = 2
+
+[node name="PlayerBarSlot" type="MarginContainer" parent="Root/MainColumn/GameMargin/GameArea/BottomInfo"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="BottomSpacer" type="Control" parent="Root/MainColumn/GameMargin/GameArea/BottomInfo"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Actions" type="HBoxContainer" parent="Root/MainColumn/GameMargin/GameArea/BottomInfo"]
+layout_mode = 2
+size_flags_vertical = 4
+theme_override_constants/separation = 10
+
+[node name="PlayCardButton" type="Button" parent="Root/MainColumn/GameMargin/GameArea/BottomInfo/Actions"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 38)
+layout_mode = 2
+disabled = true
+theme_override_styles/normal = SubResource("StyleButton")
+theme_override_styles/disabled = SubResource("StyleButton")
+theme_override_styles/focus = SubResource("StyleFocus")
+theme_override_colors/font_disabled_color = Color(0.435294, 0.45098, 0.580392, 1)
+theme_override_font_sizes/font_size = 12
+text = "Play Card"
+
+[node name="EndTurnButton" type="Button" parent="Root/MainColumn/GameMargin/GameArea/BottomInfo/Actions"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 38)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleEndTurn")
+theme_override_styles/hover = SubResource("StyleEndTurn")
+theme_override_styles/pressed = SubResource("StyleEndTurn")
+theme_override_styles/disabled = SubResource("StyleButton")
+theme_override_styles/focus = SubResource("StyleFocus")
+theme_override_colors/font_color = Color(0, 0.831373, 1, 1)
+theme_override_colors/font_disabled_color = Color(0.435294, 0.45098, 0.580392, 1)
+theme_override_font_sizes/font_size = 12
+text = "End Turn"
+
+[node name="SurrenderButton" type="Button" parent="Root/MainColumn/GameMargin/GameArea/BottomInfo/Actions"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 38)
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleSurrender")
+theme_override_styles/hover = SubResource("StyleSurrender")
+theme_override_styles/pressed = SubResource("StyleSurrender")
+theme_override_styles/disabled = SubResource("StyleButton")
+theme_override_styles/focus = SubResource("StyleFocus")
+theme_override_colors/font_color = Color(0.898039, 0.541176, 0.603922, 1)
+theme_override_colors/font_disabled_color = Color(0.435294, 0.45098, 0.580392, 1)
+theme_override_font_sizes/font_size = 12
+text = "Surrender"
+
+[node name="Sidebar" type="PanelContainer" parent="Root"]
+custom_minimum_size = Vector2(320, 0)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleSidebar")
+
+[node name="SidebarContent" type="VBoxContainer" parent="Root/Sidebar"]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="TabBar" type="PanelContainer" parent="Root/Sidebar/SidebarContent"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleTabBar")
+
+[node name="TabsRow" type="HBoxContainer" parent="Root/Sidebar/SidebarContent/TabBar"]
+layout_mode = 2
+
+[node name="TabDetailsButton" type="Button" parent="Root/Sidebar/SidebarContent/TabBar/TabsRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/focus = SubResource("StyleFocus")
+theme_override_font_sizes/font_size = 11
+text = "Card Details"
+
+[node name="TabLogButton" type="Button" parent="Root/Sidebar/SidebarContent/TabBar/TabsRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/focus = SubResource("StyleFocus")
+theme_override_font_sizes/font_size = 11
+text = "Battle Log"
+
+[node name="ContentMargin" type="MarginContainer" parent="Root/Sidebar/SidebarContent"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="LogScroll" type="ScrollContainer" parent="Root/Sidebar/SidebarContent/ContentMargin"]
+unique_name_in_owner = true
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="BattleLog" type="RichTextLabel" parent="Root/Sidebar/SidebarContent/ContentMargin/LogScroll"]
+unique_name_in_owner = true
+theme_type_variation = &"MonoRichText"
+layout_mode = 2
+size_flags_horizontal = 3
+bbcode_enabled = true
+fit_content = true
+scroll_following = true
+
+[node name="DetailsScroll" type="ScrollContainer" parent="Root/Sidebar/SidebarContent/ContentMargin"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="CardDetails" parent="Root/Sidebar/SidebarContent/ContentMargin/DetailsScroll" instance=ExtResource("4")]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="EffectNotificationOverlay" type="Control" parent="."]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="GameplayNotificationArea" type="Control" parent="EffectNotificationOverlay"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -320.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="EffectNotification" parent="EffectNotificationOverlay/GameplayNotificationArea" instance=ExtResource("7")]
+unique_name_in_owner = true
+z_index = 90
+layout_mode = 1
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -210.0
+offset_top = 68.0
+offset_right = 210.0
+offset_bottom = 152.0
+grow_horizontal = 2
+mouse_filter = 2
+
+[node name="ResultOverlay" type="PanelContainer" parent="."]
+unique_name_in_owner = true
+visible = false
+z_index = 100
+layout_mode = 2
+mouse_filter = 0
+theme_override_styles/panel = SubResource("StyleScrim")
+
+[node name="ResultCenter" type="CenterContainer" parent="ResultOverlay"]
+layout_mode = 2
+
+[node name="ResultCard" type="PanelContainer" parent="ResultOverlay/ResultCenter"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(290, 0)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleResult")
+
+[node name="ResultContent" type="VBoxContainer" parent="ResultOverlay/ResultCenter/ResultCard"]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="ResultLabel" type="Label" parent="ResultOverlay/ResultCenter/ResultCard/ResultContent"]
+unique_name_in_owner = true
+theme_type_variation = &"GeistTitle"
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.843137, 0, 1)
+theme_override_font_sizes/font_size = 24
+horizontal_alignment = 1
+text = "You win!"
+
+[node name="ResultReason" type="Label" parent="ResultOverlay/ResultCenter/ResultCard/ResultContent"]
+unique_name_in_owner = true
+theme_type_variation = &"GeistBody"
+layout_mode = 2
+theme_override_colors/font_color = Color(0.435294, 0.45098, 0.580392, 1)
+theme_override_font_sizes/font_size = 12
+horizontal_alignment = 1
+text = "AI Opponent's HP reached 0."
+
+[node name="ResultDivider" type="HSeparator" parent="ResultOverlay/ResultCenter/ResultCard/ResultContent"]
+layout_mode = 2
+
+[node name="ResultButton" type="Button" parent="ResultOverlay/ResultCenter/ResultCard/ResultContent"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_styles/normal = SubResource("StylePhase")
+theme_override_styles/hover = SubResource("StylePhase")
+theme_override_styles/pressed = SubResource("StylePhase")
+theme_override_styles/focus = SubResource("StyleFocus")
+theme_override_colors/font_color = Color(1, 0.843137, 0, 1)
+theme_override_font_sizes/font_size = 12
+icon = ExtResource("2")
+icon_max_width = 12
+text = "Back to Menu"
+
+[node name="SurrenderOverlay" type="PanelContainer" parent="."]
+unique_name_in_owner = true
+visible = false
+z_index = 100
+layout_mode = 2
+mouse_filter = 0
+theme_override_styles/panel = SubResource("StyleScrim")
+
+[node name="SurrenderCenter" type="CenterContainer" parent="SurrenderOverlay"]
+layout_mode = 2
+
+[node name="SurrenderCard" type="PanelContainer" parent="SurrenderOverlay/SurrenderCenter"]
+custom_minimum_size = Vector2(290, 0)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleResult")
+
+[node name="SurrenderContent" type="VBoxContainer" parent="SurrenderOverlay/SurrenderCenter/SurrenderCard"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="SurrenderLabel" type="Label" parent="SurrenderOverlay/SurrenderCenter/SurrenderCard/SurrenderContent"]
+theme_type_variation = &"GeistTitle"
+layout_mode = 2
+theme_override_font_sizes/font_size = 17
+horizontal_alignment = 1
+autowrap_mode = 3
+text = "Do you want to surrender?"
+
+[node name="SurrenderDivider" type="HSeparator" parent="SurrenderOverlay/SurrenderCenter/SurrenderCard/SurrenderContent"]
+layout_mode = 2
+
+[node name="SurrenderActions" type="HBoxContainer" parent="SurrenderOverlay/SurrenderCenter/SurrenderCard/SurrenderContent"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="SurrenderYesButton" type="Button" parent="SurrenderOverlay/SurrenderCenter/SurrenderCard/SurrenderContent/SurrenderActions"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/normal = SubResource("StyleConfirmYes")
+theme_override_styles/hover = SubResource("StyleConfirmYes")
+theme_override_styles/pressed = SubResource("StyleConfirmYes")
+theme_override_styles/focus = SubResource("StyleFocus")
+theme_override_colors/font_color = Color(0, 1, 0.4, 1)
+theme_override_font_sizes/font_size = 12
+text = "Yes"
+
+[node name="SurrenderNoButton" type="Button" parent="SurrenderOverlay/SurrenderCenter/SurrenderCard/SurrenderContent/SurrenderActions"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/normal = SubResource("StyleSurrender")
+theme_override_styles/hover = SubResource("StyleSurrender")
+theme_override_styles/pressed = SubResource("StyleSurrender")
+theme_override_styles/focus = SubResource("StyleFocus")
+theme_override_colors/font_color = Color(0.898039, 0.541176, 0.603922, 1)
+theme_override_font_sizes/font_size = 12
+text = "No"

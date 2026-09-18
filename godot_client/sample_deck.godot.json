@@ -1,0 +1,1996 @@
+{
+  "id": "abyssal_depths_60",
+  "name": "Abyssal Depths",
+  "theme": "Deep Sea Creatures",
+  "rules": {
+    "elements": [
+      "water",
+      "light",
+      "fire",
+      "nature",
+      "earth",
+      "void"
+    ],
+    "factions": [
+      "abyssal",
+      "deep",
+      "coral",
+      "surface"
+    ],
+    "keywords": [
+      "Lure",
+      "Devour",
+      "Glow",
+      "Cloak",
+      "Bounce",
+      "Crush",
+      "Summon",
+      "Strike",
+      "Tide",
+      "Wipe",
+      "Armor",
+      "Rush",
+      "Shield",
+      "Quake",
+      "Charm",
+      "Swarm",
+      "Echo",
+      "Bite",
+      "Blast",
+      "Vortex"
+    ],
+    "card_types": [
+      "Creature",
+      "Spell",
+      "Terrain"
+    ],
+    "stat_ranges": {
+      "cost": {
+        "min": 0,
+        "max": 10
+      },
+      "attack": {
+        "min": 0,
+        "max": 12
+      },
+      "defense": {
+        "min": 0,
+        "max": 12
+      },
+      "health": {
+        "min": 0,
+        "max": 20
+      }
+    },
+    "ability_values": {},
+    "ability_constraints": {},
+    "synergy_bonuses": {}
+  },
+  "balance_history": [],
+  "cards": [
+    {
+      "id": "abyssal_c_01",
+      "rarity": "common",
+      "tags": [
+        "Glow"
+      ],
+      "gameplay": {
+        "cost": 1,
+        "attack": 1,
+        "defense": 2,
+        "health": 2,
+        "element": "water",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Bioluminescent Jelly",
+        "ability": "Glow: draw 1 card when played.",
+        "flavor": "Soft glow in the sunless depths.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Bioluminescent%20Jelly%2C%20water%20Creature%2C%20Soft%20glow%20in%20the%20sunless%20depths.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=45253",
+        "ability_rules": [
+          {
+            "keyword": "Glow",
+            "description": "Glow: draw 1 card when played.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_02",
+      "rarity": "common",
+      "tags": [
+        "Scout"
+      ],
+      "gameplay": {
+        "cost": 1,
+        "attack": 2,
+        "defense": 1,
+        "health": 1,
+        "element": "light",
+        "faction": "surface"
+      },
+      "content": {
+        "name": "Lanternfish Scout",
+        "ability": "Scout: reveal top card of deck.",
+        "flavor": "Guiding lost schools through twilight.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Lanternfish%20Scout%2C%20light%20Creature%2C%20Guiding%20lost%20schools%20through%20twilight.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=76726",
+        "ability_rules": [
+          {
+            "keyword": "Scout",
+            "description": "Scout: reveal top card of deck.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_03",
+      "rarity": "common",
+      "tags": [
+        "Guard"
+      ],
+      "gameplay": {
+        "cost": 1,
+        "attack": 1,
+        "defense": 3,
+        "health": 3,
+        "element": "earth",
+        "faction": "coral"
+      },
+      "content": {
+        "name": "Sand Burrower",
+        "ability": "Guard: tough carapace.",
+        "flavor": "Patient beneath shifting silt.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Sand%20Burrower%2C%20earth%20Creature%2C%20Patient%20beneath%20shifting%20silt.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=61113",
+        "ability_rules": [
+          {
+            "keyword": "Guard",
+            "description": "Guard: tough carapace.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_04",
+      "rarity": "common",
+      "tags": [
+        "Devour"
+      ],
+      "gameplay": {
+        "cost": 2,
+        "attack": 3,
+        "defense": 2,
+        "health": 2,
+        "element": "void",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Gulper Eel",
+        "ability": "Devour: +1 attack when destroying an enemy.",
+        "flavor": "An insatiable maw in the dark.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Gulper%20Eel%2C%20void%20Creature%2C%20An%20insatiable%20maw%20in%20the%20dark.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=24312",
+        "ability_rules": [
+          {
+            "keyword": "Devour",
+            "description": "Devour: +1 attack when destroying an enemy.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_05",
+      "rarity": "common",
+      "tags": [
+        "Bristle"
+      ],
+      "gameplay": {
+        "cost": 2,
+        "attack": 2,
+        "defense": 4,
+        "health": 4,
+        "element": "water",
+        "faction": "coral"
+      },
+      "content": {
+        "name": "Coral Crab",
+        "ability": "Bristle: deals 1 damage to attacker.",
+        "flavor": "Shelled guardian of the reef.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Coral%20Crab%2C%20water%20Creature%2C%20Shelled%20guardian%20of%20the%20reef.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=81396",
+        "ability_rules": [
+          {
+            "keyword": "Bristle",
+            "description": "Bristle: deals 1 damage to attacker.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_06",
+      "rarity": "common",
+      "tags": [
+        "Drift"
+      ],
+      "gameplay": {
+        "cost": 2,
+        "attack": 2,
+        "defense": 3,
+        "health": 3,
+        "element": "water",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Dumbo Octopus",
+        "ability": "Drift: cannot be targeted by spells cost 1.",
+        "flavor": "Gliding effortlessly on unseen currents.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Dumbo%20Octopus%2C%20water%20Creature%2C%20Gliding%20effortlessly%20on%20unseen%20currents.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=64806",
+        "ability_rules": [
+          {
+            "keyword": "Drift",
+            "description": "Drift: cannot be targeted by spells cost 1.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_07",
+      "rarity": "common",
+      "tags": [
+        "Strike"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 4,
+        "defense": 3,
+        "health": 3,
+        "element": "void",
+        "faction": "abyssal"
+      },
+      "content": {
+        "name": "Deep Lurker",
+        "ability": "Strike: hits first when attacking.",
+        "flavor": "Stalking from the crushing pressure.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Deep%20Lurker%2C%20void%20Creature%2C%20Stalking%20from%20the%20crushing%20pressure.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=97157",
+        "ability_rules": [
+          {
+            "keyword": "Strike",
+            "description": "Strike: hits first when attacking.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_08",
+      "rarity": "rare",
+      "tags": [
+        "Lure"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 3,
+        "defense": 5,
+        "health": 5,
+        "element": "light",
+        "faction": "abyssal"
+      },
+      "content": {
+        "name": "Anglerfish Lure",
+        "ability": "Lure: enemy must target this creature.",
+        "flavor": "A radiant bulb promising doom.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Anglerfish%20Lure%2C%20light%20Creature%2C%20A%20radiant%20bulb%20promising%20doom.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=27350",
+        "ability_rules": [
+          {
+            "keyword": "Lure",
+            "description": "Lure: enemy must target this creature.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_09",
+      "rarity": "rare",
+      "tags": [
+        "Cloak"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 4,
+        "defense": 4,
+        "health": 4,
+        "element": "void",
+        "faction": "abyssal"
+      },
+      "content": {
+        "name": "Vampire Squid",
+        "ability": "Cloak: immune to single-target spells.",
+        "flavor": "Cloaked in midnight red webbing.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Vampire%20Squid%2C%20void%20Creature%2C%20Cloaked%20in%20midnight%20red%20webbing.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=9771",
+        "ability_rules": [
+          {
+            "keyword": "Cloak",
+            "description": "Cloak: immune to single-target spells.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_10",
+      "rarity": "common",
+      "tags": [
+        "Stun"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 3,
+        "defense": 3,
+        "health": 3,
+        "element": "light",
+        "faction": "surface"
+      },
+      "content": {
+        "name": "Electric Ray",
+        "ability": "Stun: target creature cannot attack next turn.",
+        "flavor": "Discharging crackling sea currents.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Electric%20Ray%2C%20light%20Creature%2C%20Discharging%20crackling%20sea%20currents.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=23173",
+        "ability_rules": [
+          {
+            "keyword": "Stun",
+            "description": "Stun: target creature cannot attack next turn.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_11",
+      "rarity": "rare",
+      "tags": [
+        "Taunt"
+      ],
+      "gameplay": {
+        "cost": 4,
+        "attack": 4,
+        "defense": 6,
+        "health": 6,
+        "element": "void",
+        "faction": "abyssal"
+      },
+      "content": {
+        "name": "Abyssal Sentinel",
+        "ability": "Taunt: protects allied creatures.",
+        "flavor": "Vigilant sentinel of forgotten trenches.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Abyssal%20Sentinel%2C%20void%20Creature%2C%20Vigilant%20sentinel%20of%20forgotten%20trenches.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=90675",
+        "ability_rules": [
+          {
+            "keyword": "Taunt",
+            "description": "Taunt: protects allied creatures.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_12",
+      "rarity": "rare",
+      "tags": [
+        "Symbiosis"
+      ],
+      "gameplay": {
+        "cost": 4,
+        "attack": 2,
+        "defense": 8,
+        "health": 8,
+        "element": "nature",
+        "faction": "coral"
+      },
+      "content": {
+        "name": "Tube Worm Colony",
+        "ability": "Symbiosis: heals 1 health each turn.",
+        "flavor": "Anchored in mineral-rich steam.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Tube%20Worm%20Colony%2C%20nature%20Creature%2C%20Anchored%20in%20mineral-rich%20steam.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=2060",
+        "ability_rules": [
+          {
+            "keyword": "Symbiosis",
+            "description": "Symbiosis: heals 1 health each turn.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_13",
+      "rarity": "common",
+      "tags": [
+        "Rush"
+      ],
+      "gameplay": {
+        "cost": 4,
+        "attack": 5,
+        "defense": 4,
+        "health": 4,
+        "element": "water",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Frilled Hunter",
+        "ability": "Rush: can attack immediately on play.",
+        "flavor": "Swift coils striking without warning.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Frilled%20Hunter%2C%20water%20Creature%2C%20Swift%20coils%20striking%20without%20warning.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=85407",
+        "ability_rules": [
+          {
+            "keyword": "Rush",
+            "description": "Rush: can attack immediately on play.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_14",
+      "rarity": "rare",
+      "tags": [
+        "Ancient"
+      ],
+      "gameplay": {
+        "cost": 5,
+        "attack": 5,
+        "defense": 7,
+        "health": 7,
+        "element": "water",
+        "faction": "abyssal"
+      },
+      "content": {
+        "name": "Coelacanth Elder",
+        "ability": "Ancient: reduces cost of water cards by 1.",
+        "flavor": "Survivor of forgotten prehistoric ages.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Coelacanth%20Elder%2C%20water%20Creature%2C%20Survivor%20of%20forgotten%20prehistoric%20ages.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=13215",
+        "ability_rules": [
+          {
+            "keyword": "Ancient",
+            "description": "Ancient: reduces cost of water cards by 1.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_15",
+      "rarity": "epic",
+      "tags": [
+        "Pierce"
+      ],
+      "gameplay": {
+        "cost": 5,
+        "attack": 6,
+        "defense": 5,
+        "health": 5,
+        "element": "void",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Shadow Moray",
+        "ability": "Pierce: ignores defender armor.",
+        "flavor": "Slithering from obsidian crevices.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Shadow%20Moray%2C%20void%20Creature%2C%20Slithering%20from%20obsidian%20crevices.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=5306",
+        "ability_rules": [
+          {
+            "keyword": "Pierce",
+            "description": "Pierce: ignores defender armor.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_16",
+      "rarity": "epic",
+      "tags": [
+        "Sweep"
+      ],
+      "gameplay": {
+        "cost": 6,
+        "attack": 6,
+        "defense": 8,
+        "health": 8,
+        "element": "water",
+        "faction": "surface"
+      },
+      "content": {
+        "name": "Giant Manta",
+        "ability": "Sweep: attacks adjacent creature lanes.",
+        "flavor": "Wings like storms beneath the waves.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Giant%20Manta%2C%20water%20Creature%2C%20Wings%20like%20storms%20beneath%20the%20waves.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=52642",
+        "ability_rules": [
+          {
+            "keyword": "Sweep",
+            "description": "Sweep: attacks adjacent creature lanes.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_17",
+      "rarity": "epic",
+      "tags": [
+        "Burn"
+      ],
+      "gameplay": {
+        "cost": 5,
+        "attack": 6,
+        "defense": 4,
+        "health": 4,
+        "element": "fire",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Hydrothermal Drake",
+        "ability": "Searing: burns attacker for 2 damage.",
+        "flavor": "Forged in scalding vent plumes.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Hydrothermal%20Drake%2C%20fire%20Creature%2C%20Forged%20in%20scalding%20vent%20plumes.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=98290",
+        "ability_rules": [
+          {
+            "keyword": "Burn",
+            "description": "Searing: burns attacker for 2 damage.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_18",
+      "rarity": "common",
+      "tags": [
+        "Armor"
+      ],
+      "gameplay": {
+        "cost": 2,
+        "attack": 2,
+        "defense": 3,
+        "health": 3,
+        "element": "fire",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Magma Vent Crab",
+        "ability": "Armor: reduces damage taken by 1.",
+        "flavor": "Scuttles across glowing mineral fissures.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Magma%20Vent%20Crab%2C%20fire%20Creature%2C%20Scuttles%20across%20glowing%20mineral%20fissures.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=62489",
+        "ability_rules": [
+          {
+            "keyword": "Armor",
+            "description": "Armor: reduces damage taken by 1.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_19",
+      "rarity": "rare",
+      "tags": [
+        "Venom"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 4,
+        "defense": 2,
+        "health": 2,
+        "element": "fire",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Boiling Viper",
+        "ability": "Venom: deals 2 fire damage over time.",
+        "flavor": "Venom hotter than boiling brine.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Boiling%20Viper%2C%20fire%20Creature%2C%20Venom%20hotter%20than%20boiling%20brine.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=52232",
+        "ability_rules": [
+          {
+            "keyword": "Venom",
+            "description": "Venom: deals 2 fire damage over time.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_20",
+      "rarity": "common",
+      "tags": [
+        "Root"
+      ],
+      "gameplay": {
+        "cost": 2,
+        "attack": 1,
+        "defense": 5,
+        "health": 5,
+        "element": "nature",
+        "faction": "coral"
+      },
+      "content": {
+        "name": "Kelp Strangler",
+        "ability": "Root: holds enemy creature in place.",
+        "flavor": "Tendrils woven into inescapable snares.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Kelp%20Strangler%2C%20nature%20Creature%2C%20Tendrils%20woven%20into%20inescapable%20snares.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=87515",
+        "ability_rules": [
+          {
+            "keyword": "Root",
+            "description": "Root: holds enemy creature in place.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_21",
+      "rarity": "common",
+      "tags": [
+        "Spore"
+      ],
+      "gameplay": {
+        "cost": 1,
+        "attack": 1,
+        "defense": 2,
+        "health": 2,
+        "element": "nature",
+        "faction": "coral"
+      },
+      "content": {
+        "name": "Deep Spore Polyp",
+        "ability": "Spore: spawns a 1/1 spore on death.",
+        "flavor": "Releasing glowing benthic spores.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Deep%20Spore%20Polyp%2C%20nature%20Creature%2C%20Releasing%20glowing%20benthic%20spores.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=12065",
+        "ability_rules": [
+          {
+            "keyword": "Spore",
+            "description": "Spore: spawns a 1/1 spore on death.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_22",
+      "rarity": "legendary",
+      "tags": [
+        "Crush"
+      ],
+      "gameplay": {
+        "cost": 7,
+        "attack": 8,
+        "defense": 9,
+        "health": 9,
+        "element": "void",
+        "faction": "abyssal"
+      },
+      "content": {
+        "name": "Abyssal Behemoth",
+        "ability": "Crush: excess damage hits hero face.",
+        "flavor": "A shadow that eclipses whole trenches.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Abyssal%20Behemoth%2C%20void%20Creature%2C%20A%20shadow%20that%20eclipses%20whole%20trenches.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=92823",
+        "ability_rules": [
+          {
+            "keyword": "Crush",
+            "description": "Crush: excess damage hits hero face.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_23",
+      "rarity": "common",
+      "tags": [
+        "Shield"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 2,
+        "defense": 5,
+        "health": 5,
+        "element": "water",
+        "faction": "coral"
+      },
+      "content": {
+        "name": "Nautiloid Sentry",
+        "ability": "Shield: blocks first attack.",
+        "flavor": "Spiral shell impervious to water pressure.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Nautiloid%20Sentry%2C%20water%20Creature%2C%20Spiral%20shell%20impervious%20to%20water%20pressure.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=99338",
+        "ability_rules": [
+          {
+            "keyword": "Shield",
+            "description": "Shield: blocks first attack.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_24",
+      "rarity": "rare",
+      "tags": [
+        "Stealth"
+      ],
+      "gameplay": {
+        "cost": 4,
+        "attack": 5,
+        "defense": 3,
+        "health": 3,
+        "element": "void",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Ghost Shark",
+        "ability": "Stealth: cannot be targeted until attacking.",
+        "flavor": "Silently prowling twilight depths.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Ghost%20Shark%2C%20void%20Creature%2C%20Silently%20prowling%20twilight%20depths.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=34918",
+        "ability_rules": [
+          {
+            "keyword": "Stealth",
+            "description": "Stealth: cannot be targeted until attacking.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_25",
+      "rarity": "rare",
+      "tags": [
+        "Radiance"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 2,
+        "defense": 4,
+        "health": 4,
+        "element": "light",
+        "faction": "surface"
+      },
+      "content": {
+        "name": "Sunken Glowray",
+        "ability": "Radiance: blinds enemy attacker.",
+        "flavor": "Radiant wings glowing in dark water.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Sunken%20Glowray%2C%20light%20Creature%2C%20Radiant%20wings%20glowing%20in%20dark%20water.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=52785",
+        "ability_rules": [
+          {
+            "keyword": "Radiance",
+            "description": "Radiance: blinds enemy attacker.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_26",
+      "rarity": "epic",
+      "tags": [
+        "Refract"
+      ],
+      "gameplay": {
+        "cost": 4,
+        "attack": 3,
+        "defense": 6,
+        "health": 6,
+        "element": "light",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Prism Medusa",
+        "ability": "Refract: splits damage among attackers.",
+        "flavor": "Crystalline bell refracting holy light.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Prism%20Medusa%2C%20light%20Creature%2C%20Crystalline%20bell%20refracting%20holy%20light.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=46692",
+        "ability_rules": [
+          {
+            "keyword": "Refract",
+            "description": "Refract: splits damage among attackers.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_27",
+      "rarity": "common",
+      "tags": [
+        "Quake"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 3,
+        "defense": 4,
+        "health": 4,
+        "element": "earth",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Tectonic Crustacean",
+        "ability": "Quake: +1 attack when taking damage.",
+        "flavor": "Hardened plates carved from tectonic basalt.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Tectonic%20Crustacean%2C%20earth%20Creature%2C%20Hardened%20plates%20carved%20from%20tectonic%20basalt.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=80208",
+        "ability_rules": [
+          {
+            "keyword": "Quake",
+            "description": "Quake: +1 attack when taking damage.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_28",
+      "rarity": "epic",
+      "tags": [
+        "Solid"
+      ],
+      "gameplay": {
+        "cost": 6,
+        "attack": 5,
+        "defense": 8,
+        "health": 8,
+        "element": "earth",
+        "faction": "coral"
+      },
+      "content": {
+        "name": "Basalt Golem",
+        "ability": "Solid: cannot be stunned or bounced.",
+        "flavor": "Carved from deep sea tectonic bedrock.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Basalt%20Golem%2C%20earth%20Creature%2C%20Carved%20from%20deep%20sea%20tectonic%20bedrock.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=69406",
+        "ability_rules": [
+          {
+            "keyword": "Solid",
+            "description": "Solid: cannot be stunned or bounced.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_29",
+      "rarity": "common",
+      "tags": [
+        "Scavenge"
+      ],
+      "gameplay": {
+        "cost": 1,
+        "attack": 2,
+        "defense": 1,
+        "health": 1,
+        "element": "earth",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Seabed Crawler",
+        "ability": "Scavenge: gains +1/+1 on enemy death.",
+        "flavor": "Feeding on ancient oceanic falls.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Seabed%20Crawler%2C%20earth%20Creature%2C%20Feeding%20on%20ancient%20oceanic%20falls.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=78904",
+        "ability_rules": [
+          {
+            "keyword": "Scavenge",
+            "description": "Scavenge: gains +1/+1 on enemy death.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_30",
+      "rarity": "legendary",
+      "tags": [
+        "Tsunami"
+      ],
+      "gameplay": {
+        "cost": 8,
+        "attack": 9,
+        "defense": 10,
+        "health": 10,
+        "element": "water",
+        "faction": "abyssal"
+      },
+      "content": {
+        "name": "Trench Leviathan",
+        "ability": "Tsunami: damages all enemy non-water units.",
+        "flavor": "Ruler of the deepest abyssal trenches.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Trench%20Leviathan%2C%20water%20Creature%2C%20Ruler%20of%20the%20deepest%20abyssal%20trenches.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=94050",
+        "ability_rules": [
+          {
+            "keyword": "Tsunami",
+            "description": "Tsunami: damages all enemy non-water units.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_31",
+      "rarity": "rare",
+      "tags": [
+        "Charm"
+      ],
+      "gameplay": {
+        "cost": 4,
+        "attack": 3,
+        "defense": 4,
+        "health": 4,
+        "element": "water",
+        "faction": "surface"
+      },
+      "content": {
+        "name": "Siren of the Trench",
+        "ability": "Charm: steals control of creature cost 2.",
+        "flavor": "Haunting melodies calling from the abyss.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Siren%20of%20the%20Trench%2C%20water%20Creature%2C%20Haunting%20melodies%20calling%20from%20the%20abyss.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=42328",
+        "ability_rules": [
+          {
+            "keyword": "Charm",
+            "description": "Charm: steals control of creature cost 2.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_32",
+      "rarity": "common",
+      "tags": [
+        "Inflate"
+      ],
+      "gameplay": {
+        "cost": 2,
+        "attack": 2,
+        "defense": 3,
+        "health": 3,
+        "element": "water",
+        "faction": "coral"
+      },
+      "content": {
+        "name": "Armored Pufferfish",
+        "ability": "Inflate: gains +3 defense when attacked.",
+        "flavor": "Expanding into a spiked iron sphere.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Armored%20Pufferfish%2C%20water%20Creature%2C%20Expanding%20into%20a%20spiked%20iron%20sphere.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=38602",
+        "ability_rules": [
+          {
+            "keyword": "Inflate",
+            "description": "Inflate: gains +3 defense when attacked.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_33",
+      "rarity": "rare",
+      "tags": [
+        "Poison"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 1,
+        "defense": 6,
+        "health": 6,
+        "element": "nature",
+        "faction": "coral"
+      },
+      "content": {
+        "name": "Abyssal Anemone",
+        "ability": "Sting: poisons attacker for 1 each turn.",
+        "flavor": "Gentle beauty hiding lethal neurotoxins.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Abyssal%20Anemone%2C%20nature%20Creature%2C%20Gentle%20beauty%20hiding%20lethal%20neurotoxins.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=36506",
+        "ability_rules": [
+          {
+            "keyword": "Poison",
+            "description": "Sting: poisons attacker for 1 each turn.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_34",
+      "rarity": "common",
+      "tags": [
+        "Swarm"
+      ],
+      "gameplay": {
+        "cost": 1,
+        "attack": 3,
+        "defense": 1,
+        "health": 1,
+        "element": "water",
+        "faction": "surface"
+      },
+      "content": {
+        "name": "Pelagic Swarm",
+        "ability": "Swarm: gains +1 atk for each other Swarm.",
+        "flavor": "Ten thousand glistening silver bodies.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Pelagic%20Swarm%2C%20water%20Creature%2C%20Ten%20thousand%20glistening%20silver%20bodies.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=21737",
+        "ability_rules": [
+          {
+            "keyword": "Swarm",
+            "description": "Swarm: gains +1 atk for each other Swarm.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_35",
+      "rarity": "rare",
+      "tags": [
+        "Bait"
+      ],
+      "gameplay": {
+        "cost": 4,
+        "attack": 4,
+        "defense": 3,
+        "health": 3,
+        "element": "void",
+        "faction": "abyssal"
+      },
+      "content": {
+        "name": "Phantom Angler",
+        "ability": "Bait: draws enemy into direct confrontation.",
+        "flavor": "The light you see is the last you know.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Phantom%20Angler%2C%20void%20Creature%2C%20The%20light%20you%20see%20is%20the%20last%20you%20know.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=97146",
+        "ability_rules": [
+          {
+            "keyword": "Bait",
+            "description": "Bait: draws enemy into direct confrontation.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_36",
+      "rarity": "common",
+      "tags": [
+        "Heat"
+      ],
+      "gameplay": {
+        "cost": 2,
+        "attack": 1,
+        "defense": 5,
+        "health": 5,
+        "element": "fire",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Obsidian Vent Snail",
+        "ability": "Heat Shell: deals 1 damage to melee attackers.",
+        "flavor": "Scales of mineralized iron and sulfur.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Obsidian%20Vent%20Snail%2C%20fire%20Creature%2C%20Scales%20of%20mineralized%20iron%20and%20sulfur.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=16049",
+        "ability_rules": [
+          {
+            "keyword": "Heat",
+            "description": "Heat Shell: deals 1 damage to melee attackers.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_37",
+      "rarity": "rare",
+      "tags": [
+        "Echo"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 3,
+        "defense": 4,
+        "health": 4,
+        "element": "water",
+        "faction": "surface"
+      },
+      "content": {
+        "name": "Deepwater Dolphin",
+        "ability": "Echo: reveals opponent hand cards.",
+        "flavor": "Sonar cutting through opaque depths.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Deepwater%20Dolphin%2C%20water%20Creature%2C%20Sonar%20cutting%20through%20opaque%20depths.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=10490",
+        "ability_rules": [
+          {
+            "keyword": "Echo",
+            "description": "Echo: reveals opponent hand cards.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_38",
+      "rarity": "epic",
+      "tags": [
+        "Bite"
+      ],
+      "gameplay": {
+        "cost": 6,
+        "attack": 7,
+        "defense": 6,
+        "health": 6,
+        "element": "water",
+        "faction": "abyssal"
+      },
+      "content": {
+        "name": "Ancient Megalodon",
+        "ability": "Bite: instantly defeats low-health units.",
+        "flavor": "Primeval jaws that snap galleons in two.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Ancient%20Megalodon%2C%20water%20Creature%2C%20Primeval%20jaws%20that%20snap%20galleons%20in%20two.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=59247",
+        "ability_rules": [
+          {
+            "keyword": "Bite",
+            "description": "Bite: instantly defeats low-health units.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_39",
+      "rarity": "rare",
+      "tags": [
+        "Tentacle"
+      ],
+      "gameplay": {
+        "cost": 4,
+        "attack": 4,
+        "defense": 5,
+        "health": 5,
+        "element": "void",
+        "faction": "abyssal"
+      },
+      "content": {
+        "name": "Kraken Spawn",
+        "ability": "Tentacle: restrains enemy unit.",
+        "flavor": "A broodling born of the crushing void.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Kraken%20Spawn%2C%20void%20Creature%2C%20A%20broodling%20born%20of%20the%20crushing%20void.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=14401",
+        "ability_rules": [
+          {
+            "keyword": "Tentacle",
+            "description": "Tentacle: restrains enemy unit.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_c_40",
+      "rarity": "legendary",
+      "tags": [
+        "Immense"
+      ],
+      "gameplay": {
+        "cost": 8,
+        "attack": 8,
+        "defense": 11,
+        "health": 11,
+        "element": "water",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Oceanic Titan",
+        "ability": "Immense: immune to debuff spells.",
+        "flavor": "A living island swimming through time.",
+        "type_line": "Creature",
+        "artwork": "https://image.pollinations.ai/prompt/Oceanic%20Titan%2C%20water%20Creature%2C%20A%20living%20island%20swimming%20through%20time.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=39345",
+        "ability_rules": [
+          {
+            "keyword": "Immense",
+            "description": "Immense: immune to debuff spells.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_01",
+      "rarity": "common",
+      "tags": [
+        "Bounce"
+      ],
+      "gameplay": {
+        "cost": 2,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "water",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Pressure Wave",
+        "ability": "Bounce: return an enemy creature of cost 3 or less to hand.",
+        "flavor": "A mile down, even silence has weight.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Pressure%20Wave%2C%20water%20Spell%2C%20A%20mile%20down%2C%20even%20silence%20has%20weight.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=86567",
+        "ability_rules": [
+          {
+            "keyword": "Bounce",
+            "description": "Bounce: return an enemy creature of cost 3 or less to hand.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_02",
+      "rarity": "common",
+      "tags": [
+        "Heal"
+      ],
+      "gameplay": {
+        "cost": 2,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "water",
+        "faction": "coral"
+      },
+      "content": {
+        "name": "Tidal Healing",
+        "ability": "Heal: restore 4 health to your hero or a creature.",
+        "flavor": "Pure soothing brine sealing open wounds.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Tidal%20Healing%2C%20water%20Spell%2C%20Pure%20soothing%20brine%20sealing%20open%20wounds.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=221",
+        "ability_rules": [
+          {
+            "keyword": "Heal",
+            "description": "Heal: restore 4 health to your hero or a creature.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_03",
+      "rarity": "common",
+      "tags": [
+        "Strike"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "water",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Frilled Strike",
+        "ability": "Strike: deal 3 damage to any enemy target.",
+        "flavor": "Three hundred razor teeth striking in unison.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Frilled%20Strike%2C%20water%20Spell%2C%20Three%20hundred%20razor%20teeth%20striking%20in%20unison.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=8198",
+        "ability_rules": [
+          {
+            "keyword": "Strike",
+            "description": "Strike: deal 3 damage to any enemy target.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_04",
+      "rarity": "rare",
+      "tags": [
+        "Cloak"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "void",
+        "faction": "abyssal"
+      },
+      "content": {
+        "name": "Ink Cloud",
+        "ability": "Cloak: grant all allied creatures Cloak for 1 turn.",
+        "flavor": "Black clouds blinding the hunters.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Ink%20Cloud%2C%20void%20Spell%2C%20Black%20clouds%20blinding%20the%20hunters.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=79469",
+        "ability_rules": [
+          {
+            "keyword": "Cloak",
+            "description": "Cloak: grant all allied creatures Cloak for 1 turn.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_05",
+      "rarity": "rare",
+      "tags": [
+        "Damage"
+      ],
+      "gameplay": {
+        "cost": 4,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "void",
+        "faction": "abyssal"
+      },
+      "content": {
+        "name": "Giant Squid Ambush",
+        "ability": "Damage: deal 5 damage split between enemy creatures.",
+        "flavor": "Eight arms. One purpose. No escape.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Giant%20Squid%20Ambush%2C%20void%20Spell%2C%20Eight%20arms.%20One%20purpose.%20No%20escape.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=71806",
+        "ability_rules": [
+          {
+            "keyword": "Damage",
+            "description": "Damage: deal 5 damage split between enemy creatures.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_06",
+      "rarity": "epic",
+      "tags": [
+        "Tide"
+      ],
+      "gameplay": {
+        "cost": 5,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "void",
+        "faction": "abyssal"
+      },
+      "content": {
+        "name": "Abyssal Tide",
+        "ability": "Tide: reduce attack of all enemy creatures by 2.",
+        "flavor": "The ocean pulls back its borrowed warmth.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Abyssal%20Tide%2C%20void%20Spell%2C%20The%20ocean%20pulls%20back%20its%20borrowed%20warmth.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=48660",
+        "ability_rules": [
+          {
+            "keyword": "Tide",
+            "description": "Tide: reduce attack of all enemy creatures by 2.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_07",
+      "rarity": "legendary",
+      "tags": [
+        "Wipe"
+      ],
+      "gameplay": {
+        "cost": 6,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "void",
+        "faction": "abyssal"
+      },
+      "content": {
+        "name": "Kraken's Wrath",
+        "ability": "Wipe: destroy all creatures with cost 4 or higher.",
+        "flavor": "The deep does not bargain with monsters.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Kraken%27s%20Wrath%2C%20void%20Spell%2C%20The%20deep%20does%20not%20bargain%20with%20monsters.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=24347",
+        "ability_rules": [
+          {
+            "keyword": "Wipe",
+            "description": "Wipe: destroy all creatures with cost 4 or higher.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_08",
+      "rarity": "rare",
+      "tags": [
+        "Blast"
+      ],
+      "gameplay": {
+        "cost": 4,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "water",
+        "faction": "surface"
+      },
+      "content": {
+        "name": "Depth Charge",
+        "ability": "Blast: deal 4 direct damage to opponent face.",
+        "flavor": "Shattering acoustic shockwaves.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Depth%20Charge%2C%20water%20Spell%2C%20Shattering%20acoustic%20shockwaves.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=66443",
+        "ability_rules": [
+          {
+            "keyword": "Blast",
+            "description": "Blast: deal 4 direct damage to opponent face.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_09",
+      "rarity": "common",
+      "tags": [
+        "Flash"
+      ],
+      "gameplay": {
+        "cost": 1,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "light",
+        "faction": "surface"
+      },
+      "content": {
+        "name": "Luminous Flare",
+        "ability": "Flash: blind target creature so it misses its next attack.",
+        "flavor": "A blinding spark in the pitch black.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Luminous%20Flare%2C%20light%20Spell%2C%20A%20blinding%20spark%20in%20the%20pitch%20black.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=83992",
+        "ability_rules": [
+          {
+            "keyword": "Flash",
+            "description": "Flash: blind target creature so it misses its next attack.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_10",
+      "rarity": "rare",
+      "tags": [
+        "Purge"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "light",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Radiance Pulse",
+        "ability": "Purge: remove all debuffs and heal allies 2.",
+        "flavor": "Holy ocean light purging corruption.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Radiance%20Pulse%2C%20light%20Spell%2C%20Holy%20ocean%20light%20purging%20corruption.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=57142",
+        "ability_rules": [
+          {
+            "keyword": "Purge",
+            "description": "Purge: remove all debuffs and heal allies 2.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_11",
+      "rarity": "rare",
+      "tags": [
+        "Erupt"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "fire",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Boiling Geyser",
+        "ability": "Erupt: deal 4 fire damage to target and 1 to adjacent.",
+        "flavor": "Superheated steam bursting upward.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Boiling%20Geyser%2C%20fire%20Spell%2C%20Superheated%20steam%20bursting%20upward.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=36299",
+        "ability_rules": [
+          {
+            "keyword": "Erupt",
+            "description": "Erupt: deal 4 fire damage to target and 1 to adjacent.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_12",
+      "rarity": "epic",
+      "tags": [
+        "Inferno"
+      ],
+      "gameplay": {
+        "cost": 5,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "fire",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Vent Eruption",
+        "ability": "Inferno: deals 3 damage to all non-fire creatures.",
+        "flavor": "Sulfur fire sweeping the ocean floor.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Vent%20Eruption%2C%20fire%20Spell%2C%20Sulfur%20fire%20sweeping%20the%20ocean%20floor.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=39089",
+        "ability_rules": [
+          {
+            "keyword": "Inferno",
+            "description": "Inferno: deals 3 damage to all non-fire creatures.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_13",
+      "rarity": "common",
+      "tags": [
+        "Snare"
+      ],
+      "gameplay": {
+        "cost": 2,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "nature",
+        "faction": "coral"
+      },
+      "content": {
+        "name": "Entangling Kelp",
+        "ability": "Snare: prevents target creature from attacking for 2 turns.",
+        "flavor": "Coiling stalks dragging prey downward.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Entangling%20Kelp%2C%20nature%20Spell%2C%20Coiling%20stalks%20dragging%20prey%20downward.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=78580",
+        "ability_rules": [
+          {
+            "keyword": "Snare",
+            "description": "Snare: prevents target creature from attacking for 2 turns.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_14",
+      "rarity": "rare",
+      "tags": [
+        "Tremor",
+        "Stun"
+      ],
+      "gameplay": {
+        "cost": 4,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "earth",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Benthic Quake",
+        "ability": "Tremor: deals 3 damage to an enemy creature and stuns it for 1 turn.",
+        "flavor": "The seafloor fractures under immense stress.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Benthic%20Quake%2C%20earth%20Spell%2C%20The%20seafloor%20fractures%20under%20immense%20stress.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=48381",
+        "ability_rules": [
+          {
+            "keyword": "Tremor",
+            "description": "Tremor: deals 3 damage to an enemy creature and stuns it for 1 turn.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_15",
+      "rarity": "common",
+      "tags": [
+        "Barrier"
+      ],
+      "gameplay": {
+        "cost": 2,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "water",
+        "faction": "coral"
+      },
+      "content": {
+        "name": "Oceanic Shield",
+        "ability": "Barrier: grants +3 defense to target allied unit.",
+        "flavor": "Dense pressurized water deflecting steel.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Oceanic%20Shield%2C%20water%20Spell%2C%20Dense%20pressurized%20water%20deflecting%20steel.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=15413",
+        "ability_rules": [
+          {
+            "keyword": "Barrier",
+            "description": "Barrier: grants +3 defense to target allied unit.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_16",
+      "rarity": "legendary",
+      "tags": [
+        "Vortex",
+        "Wipe"
+      ],
+      "gameplay": {
+        "cost": 7,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "water",
+        "faction": "abyssal"
+      },
+      "content": {
+        "name": "Maelstrom Surge",
+        "ability": "Vortex: reshuffle all creatures on board back into decks.",
+        "flavor": "A vortex that devours ship and sea alike.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Maelstrom%20Surge%2C%20water%20Spell%2C%20A%20vortex%20that%20devours%20ship%20and%20sea%20alike.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=29365",
+        "ability_rules": [
+          {
+            "keyword": "Vortex",
+            "description": "Vortex: reshuffle all creatures on board back into decks.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_17",
+      "rarity": "rare",
+      "tags": [
+        "Burn"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "fire",
+        "faction": "deep"
+      },
+      "content": {
+        "name": "Thermal Vent Eruption",
+        "ability": "Erupt: deals 3 damage and burns target for 1.",
+        "flavor": "Scalding steam bursting through abyssal cracks.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Thermal%20Vent%20Eruption%2C%20fire%20Spell%2C%20Scalding%20steam%20bursting%20through%20abyssal%20cracks.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=67700",
+        "ability_rules": [
+          {
+            "keyword": "Burn",
+            "description": "Erupt: deals 3 damage and burns target for 1.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_18",
+      "rarity": "rare",
+      "tags": [
+        "Draw",
+        "Heal"
+      ],
+      "gameplay": {
+        "cost": 3,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "earth",
+        "faction": "coral"
+      },
+      "content": {
+        "name": "Deep Sea Bloom",
+        "ability": "Bloom: draw 2 cards and restore 2 health to your hero.",
+        "flavor": "Chemistry, not sunlight, sustains this rich benthic bloom.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Deep%20Sea%20Bloom%2C%20earth%20Spell%2C%20Chemistry%2C%20not%20sunlight%2C%20sustains%20this%20rich%20benthic%20bloom.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=36236",
+        "ability_rules": [
+          {
+            "keyword": "Draw",
+            "description": "Bloom: draw 2 cards and restore 2 health to your hero.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_19",
+      "rarity": "epic",
+      "tags": [
+        "Banish"
+      ],
+      "gameplay": {
+        "cost": 5,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "void",
+        "faction": "abyssal"
+      },
+      "content": {
+        "name": "Trench Banishment",
+        "ability": "Banish: banish an enemy creature from the board.",
+        "flavor": "Where pressure crushes all matter into oblivion.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Trench%20Banishment%2C%20void%20Spell%2C%20Where%20pressure%20crushes%20all%20matter%20into%20oblivion.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=65957",
+        "ability_rules": [
+          {
+            "keyword": "Banish",
+            "description": "Banish: banish an enemy creature from the board.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "abyssal_s_20",
+      "rarity": "common",
+      "tags": [
+        "Heal",
+        "Draw"
+      ],
+      "gameplay": {
+        "cost": 1,
+        "attack": 0,
+        "defense": 0,
+        "health": 0,
+        "element": "light",
+        "faction": "surface"
+      },
+      "content": {
+        "name": "Luminous Pearl Blessing",
+        "ability": "Luminous: restore 3 health to your hero and draw a card.",
+        "flavor": "Glowing oyster pearls radiating healing light.",
+        "type_line": "Spell",
+        "artwork": "https://image.pollinations.ai/prompt/Luminous%20Pearl%20Blessing%2C%20light%20Spell%2C%20Glowing%20oyster%20pearls%20radiating%20healing%20light.%2C%20fantasy%20trading%20card%20illustration%2C%20digital%20painting%2C%20dramatic%20cinematic%20lighting%2C%20highly%20detailed%2C%20sharp%20focus%2C%20no%20text%2C%20no%20frame%2C%20no%20borders?width=480&height=280&nologo=true&seed=94484",
+        "ability_rules": [
+          {
+            "keyword": "Heal",
+            "description": "Luminous: restore 3 health to your hero and draw a card.",
+            "allowed_types": [],
+            "blocked_types": [],
+            "min_rarity": null,
+            "max_rarity": null
+          }
+        ]
+      }
+    }
+  ]
+}

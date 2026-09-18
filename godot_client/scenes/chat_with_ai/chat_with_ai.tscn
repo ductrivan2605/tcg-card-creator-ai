@@ -1,0 +1,233 @@
+[gd_scene format=3 uid="uid://dpbnl7xfmp82u"]
+
+[ext_resource type="Texture2D" uid="uid://d1vedrspfgae0" path="res://assets/icons/square-pen.svg" id="1_skvrv"]
+[ext_resource type="FontFile" uid="uid://5mve6tq0hk3p" path="res://assets/fonts/Geist.woff2" id="2_2hwfx"]
+[ext_resource type="Texture2D" uid="uid://cm8cxisbiya85" path="res://assets/icons/arrow-up.svg" id="3_57ihf"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_76js3"]
+bg_color = Color(0.4862745, 0.43137255, 0.9019608, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+corner_detail = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_57ihf"]
+bg_color = Color(0.08235294, 0.8235294, 0.48235294, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+corner_detail = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jgfkh"]
+bg_color = Color(0.14509805, 0.16862746, 0.32156864, 1)
+corner_radius_top_left = 18
+corner_radius_top_right = 18
+corner_radius_bottom_right = 18
+corner_radius_bottom_left = 18
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_2jh0j"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2jh0j"]
+bg_color = Color(0.08627451, 0.12941177, 0.24313726, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sw2a8"]
+bg_color = Color(0.21568628, 0.5411765, 0.87058824, 1)
+corner_radius_top_left = 100
+corner_radius_top_right = 100
+corner_radius_bottom_right = 100
+corner_radius_bottom_left = 100
+corner_detail = 10
+
+[node name="ChatWithAI" type="Control" unique_id=1544468684]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 160.0
+offset_bottom = 744.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="ColorRect" parent="." unique_id=647461077]
+layout_mode = 0
+offset_left = 206.0
+offset_top = 2.0
+offset_right = 1369.0
+offset_bottom = 1637.0
+color = Color(0.0627451, 0.07450981, 0.16470589, 1)
+
+[node name="Header" type="ColorRect" parent="." unique_id=75286592]
+layout_mode = 0
+offset_left = 206.0
+offset_top = 2.0
+offset_right = 1367.0
+offset_bottom = 240.0
+color = Color(0.08627451, 0.12941177, 0.24313726, 1)
+
+[node name="HeaderContent" type="HBoxContainer" parent="Header" unique_id=157059601]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.1441264
+anchor_bottom = 0.90839696
+offset_right = -165.04285
+offset_bottom = 21.801529
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="AIAvatar" type="Panel" parent="Header" unique_id=1123146935]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 0
+offset_left = 66.0
+offset_top = 66.0
+offset_right = 135.0
+offset_bottom = 135.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_76js3")
+
+[node name="AIAvatar2" type="Panel" parent="Header" unique_id=1656221532]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 0
+offset_left = 62.0
+offset_top = 462.0
+offset_right = 131.0
+offset_bottom = 531.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_76js3")
+
+[node name="Online Indicator" type="Panel" parent="Header" unique_id=348149058]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 0
+offset_left = 152.0
+offset_top = 171.0
+offset_right = 187.0
+offset_bottom = 206.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_57ihf")
+
+[node name="MoreButton" type="Button" parent="Header" unique_id=700689278]
+layout_mode = 0
+offset_left = 1000.0
+offset_top = 36.0
+offset_right = 1117.0
+offset_bottom = 164.0
+theme_override_font_sizes/font_size = 75
+theme_override_styles/normal = SubResource("StyleBoxFlat_jgfkh")
+text = "⋮
+"
+
+[node name="NewChatButton" type="Button" parent="Header" unique_id=1965577039]
+layout_mode = 0
+offset_left = 579.0
+offset_top = 38.0
+offset_right = 938.0
+offset_bottom = 164.0
+theme_override_font_sizes/font_size = 45
+theme_override_styles/normal = SubResource("StyleBoxFlat_jgfkh")
+text = "     New Chat
+"
+
+[node name="AI Question" type="Button" parent="Header" unique_id=1791936803]
+layout_mode = 0
+offset_left = 157.0
+offset_top = 431.0
+offset_right = 743.0
+offset_bottom = 565.0
+theme_override_font_sizes/font_size = 42
+theme_override_styles/normal = SubResource("StyleBoxFlat_jgfkh")
+text = "What can I help you build?"
+
+[node name="AI Option" type="Button" parent="Header" unique_id=963295621]
+layout_mode = 0
+offset_left = 156.0
+offset_top = 599.0
+offset_right = 430.0
+offset_bottom = 724.0
+theme_override_colors/font_color = Color(0.52156866, 0.5372549, 0.65882355, 1)
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_jgfkh")
+text = "Build a deck"
+
+[node name="AI Option2" type="Button" parent="Header" unique_id=1721141692]
+layout_mode = 0
+offset_left = 466.0
+offset_top = 599.0
+offset_right = 740.0
+offset_bottom = 724.0
+theme_override_colors/font_color = Color(0.52156866, 0.5372549, 0.65882355, 1)
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_jgfkh")
+text = "Suggest a deck"
+
+[node name="SquarePen" type="Sprite2D" parent="Header" unique_id=518837887]
+position = Vector2(635, 104.000015)
+scale = Vector2(1.9583316, 2.2916667)
+texture = ExtResource("1_skvrv")
+
+[node name="AIInfo" type="VBoxContainer" parent="Header" unique_id=1958318951]
+layout_mode = 0
+offset_left = 186.0
+offset_top = 64.0
+offset_right = 499.0
+offset_bottom = 195.0
+
+[node name="AIName" type="Label" parent="Header" unique_id=995871025]
+layout_mode = 0
+offset_left = 154.0
+offset_top = 65.0
+offset_right = 505.0
+offset_bottom = 194.0
+theme_override_font_sizes/font_size = 45
+text = "AI TCG Assistant
+"
+
+[node name="Online" type="Label" parent="Header" unique_id=625116460]
+layout_mode = 0
+offset_left = 201.0
+offset_top = 159.0
+offset_right = 489.0
+offset_bottom = 260.0
+theme_override_colors/font_color = Color(0.08235294, 0.8235294, 0.48235294, 1)
+theme_override_font_sizes/font_size = 45
+theme_override_styles/focus = SubResource("StyleBoxTexture_2jh0j")
+text = "Online"
+
+[node name="InputBar" type="Panel" parent="." unique_id=1919256231]
+layout_mode = 0
+offset_left = 207.0
+offset_top = 1397.0
+offset_right = 1368.0
+offset_bottom = 1635.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_2jh0j")
+
+[node name="Comment" type="Label" parent="InputBar" unique_id=1861688723]
+layout_mode = 0
+offset_left = 89.0
+offset_top = 61.0
+offset_right = 486.0
+offset_bottom = 190.0
+theme_override_colors/font_color = Color(0.52156866, 0.5372549, 0.65882355, 1)
+theme_override_fonts/font = ExtResource("2_2hwfx")
+theme_override_font_sizes/font_size = 58
+text = "Ask AI about your deck..."
+
+[node name="AIAvatar3" type="Panel" parent="InputBar" unique_id=940939776]
+custom_minimum_size = Vector2(30, 30)
+layout_mode = 0
+offset_left = 1004.0
+offset_top = 61.0
+offset_right = 1092.0
+offset_bottom = 157.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_sw2a8")
+
+[node name="ArrowUp" type="Sprite2D" parent="InputBar/AIAvatar3" unique_id=1805766007]
+position = Vector2(44.00002, 45.749977)
+scale = Vector2(2.5833316, 3.145835)
+texture = ExtResource("3_57ihf")

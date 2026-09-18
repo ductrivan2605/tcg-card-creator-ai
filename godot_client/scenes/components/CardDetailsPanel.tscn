@@ -1,0 +1,154 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/components/CardDetailsPanel.gd" id="1"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_artframe"]
+bg_color = Color(0.133333, 0.145098, 0.27451, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0.831373, 1, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[node name="CardDetailsPanel" type="VBoxContainer"]
+theme_override_constants/separation = 16
+script = ExtResource("1")
+
+[node name="EmptyLabel" type="Label" parent="."]
+unique_name_in_owner = true
+theme_type_variation = &"GeistBody"
+layout_mode = 2
+autowrap_mode = 3
+theme_override_font_sizes/font_size = 12
+text = "Click a card to see its details."
+
+[node name="Content" type="VBoxContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="ArtCenter" type="CenterContainer" parent="Content"]
+layout_mode = 2
+
+[node name="ArtFrame" type="PanelContainer" parent="Content/ArtCenter"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(140, 200)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_artframe")
+
+[node name="ArtPlaceholder" type="Label" parent="Content/ArtCenter/ArtFrame"]
+unique_name_in_owner = true
+theme_type_variation = &"MonoLabel"
+layout_mode = 2
+horizontal_alignment = 1
+vertical_alignment = 1
+theme_override_font_sizes/font_size = 10
+text = "NO ARTWORK"
+
+[node name="ArtTexture" type="TextureRect" parent="Content/ArtCenter/ArtFrame"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+expand_mode = 1
+stretch_mode = 6
+
+[node name="DetailsMeta" type="VBoxContainer" parent="Content"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="NameRow" type="HBoxContainer" parent="Content/DetailsMeta"]
+layout_mode = 2
+
+[node name="NameLabel" type="Label" parent="Content/DetailsMeta/NameRow"]
+unique_name_in_owner = true
+theme_type_variation = &"GeistTitle"
+layout_mode = 2
+size_flags_horizontal = 3
+autowrap_mode = 3
+theme_override_font_sizes/font_size = 18
+text = "Card Name"
+
+[node name="CostLabel" type="Label" parent="Content/DetailsMeta/NameRow"]
+unique_name_in_owner = true
+theme_type_variation = &"MonoBold"
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(0, 0.831373, 1, 1)
+theme_override_font_sizes/font_size = 14
+text = "Cost: 0"
+
+[node name="PillRow" type="HBoxContainer" parent="Content/DetailsMeta"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="TypePill" type="PanelContainer" parent="Content/DetailsMeta/PillRow"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="TypeLabel" type="Label" parent="Content/DetailsMeta/PillRow/TypePill"]
+unique_name_in_owner = true
+theme_type_variation = &"MonoBold"
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "Creature"
+
+[node name="RarityPill" type="PanelContainer" parent="Content/DetailsMeta/PillRow"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="RarityLabel" type="Label" parent="Content/DetailsMeta/PillRow/RarityPill"]
+unique_name_in_owner = true
+theme_type_variation = &"MonoBold"
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "Common Rarity"
+
+[node name="Divider1" type="HSeparator" parent="Content"]
+layout_mode = 2
+
+[node name="AbilityBlock" type="VBoxContainer" parent="Content"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="AbilityTitle" type="Label" parent="Content/AbilityBlock"]
+unique_name_in_owner = true
+theme_type_variation = &"GeistHeading"
+layout_mode = 2
+autowrap_mode = 3
+theme_override_font_sizes/font_size = 12
+text = "ABILITY"
+
+[node name="AbilityBody" type="Label" parent="Content/AbilityBlock"]
+unique_name_in_owner = true
+theme_type_variation = &"GeistBody"
+layout_mode = 2
+autowrap_mode = 3
+theme_override_font_sizes/font_size = 12
+text = ""
+
+[node name="Divider2" type="HSeparator" parent="Content"]
+layout_mode = 2
+
+[node name="FlavorBlock" type="VBoxContainer" parent="Content"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="FlavorTitle" type="Label" parent="Content/FlavorBlock"]
+theme_type_variation = &"GeistBody"
+layout_mode = 2
+theme_override_colors/font_color = Color(0.384314, 0.403922, 0.552941, 1)
+theme_override_font_sizes/font_size = 11
+text = "Flavor Lore"
+
+[node name="FlavorBody" type="Label" parent="Content/FlavorBlock"]
+unique_name_in_owner = true
+theme_type_variation = &"GeistBody"
+layout_mode = 2
+autowrap_mode = 3
+theme_override_colors/font_color = Color(0.384314, 0.403922, 0.552941, 1)
+theme_override_font_sizes/font_size = 11
+text = ""

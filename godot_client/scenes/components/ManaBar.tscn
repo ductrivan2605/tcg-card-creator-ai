@@ -1,0 +1,155 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://scenes/components/ManaBar.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/battle/ManaGemRow.gd" id="2"]
+[ext_resource type="Texture2D" path="res://assets/icons/library.svg" id="3"]
+[ext_resource type="Texture2D" path="res://assets/icons/trash.svg" id="4"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_panel"]
+bg_color = Color(0.086275, 0.129412, 0.243137, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.164706, 0.180392, 0.356863, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[node name="ManaBar" type="PanelContainer"]
+custom_minimum_size = Vector2(360, 89)
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+script = ExtResource("1")
+
+[node name="Margin" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_left = 12
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 12
+theme_override_constants/margin_bottom = 12
+
+[node name="HBox" type="HBoxContainer" parent="Margin"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="Avatar" type="PanelContainer" parent="Margin/HBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="StatsCol" type="VBoxContainer" parent="Margin/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 6
+
+[node name="NameRow" type="HBoxContainer" parent="Margin/HBox/StatsCol"]
+layout_mode = 2
+
+[node name="NameLabel" type="Label" parent="Margin/HBox/StatsCol/NameRow"]
+unique_name_in_owner = true
+theme_type_variation = &"GeistHeading"
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 14
+text = "PLAYER ONE"
+
+[node name="DeckDiscard" type="HBoxContainer" parent="Margin/HBox/StatsCol/NameRow"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="DeckGroup" type="HBoxContainer" parent="Margin/HBox/StatsCol/NameRow/DeckDiscard"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="DeckIcon" type="TextureRect" parent="Margin/HBox/StatsCol/NameRow/DeckDiscard/DeckGroup"]
+custom_minimum_size = Vector2(12, 12)
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("3")
+expand_mode = 1
+stretch_mode = 5
+modulate = Color(0.384314, 0.403922, 0.552941, 1)
+
+[node name="DeckCountLabel" type="Label" parent="Margin/HBox/StatsCol/NameRow/DeckDiscard/DeckGroup"]
+unique_name_in_owner = true
+theme_type_variation = &"MonoLabel"
+theme_override_font_sizes/font_size = 11
+text = "20"
+
+[node name="DiscardGroup" type="HBoxContainer" parent="Margin/HBox/StatsCol/NameRow/DeckDiscard"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="DiscardIcon" type="TextureRect" parent="Margin/HBox/StatsCol/NameRow/DeckDiscard/DiscardGroup"]
+custom_minimum_size = Vector2(12, 12)
+layout_mode = 2
+size_flags_vertical = 4
+texture = ExtResource("4")
+expand_mode = 1
+stretch_mode = 5
+modulate = Color(0.384314, 0.403922, 0.552941, 1)
+
+[node name="DiscardCountLabel" type="Label" parent="Margin/HBox/StatsCol/NameRow/DeckDiscard/DiscardGroup"]
+unique_name_in_owner = true
+theme_type_variation = &"MonoLabel"
+theme_override_font_sizes/font_size = 11
+text = "0"
+
+[node name="HealthBarContainer" type="VBoxContainer" parent="Margin/HBox/StatsCol"]
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="HpRow" type="HBoxContainer" parent="Margin/HBox/StatsCol/HealthBarContainer"]
+layout_mode = 2
+
+[node name="HpText" type="Label" parent="Margin/HBox/StatsCol/HealthBarContainer/HpRow"]
+theme_type_variation = &"MonoLabel"
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 10
+text = "HP"
+
+[node name="HpLabel" type="Label" parent="Margin/HBox/StatsCol/HealthBarContainer/HpRow"]
+unique_name_in_owner = true
+theme_type_variation = &"MonoBold"
+theme_override_font_sizes/font_size = 11
+text = "20/20"
+
+[node name="HpTrack" type="Control" parent="Margin/HBox/StatsCol/HealthBarContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 6)
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="HpTrackBg" type="ColorRect" parent="Margin/HBox/StatsCol/HealthBarContainer/HpTrack"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0, 0, 0, 0.38)
+
+[node name="HpFill" type="ColorRect" parent="Margin/HBox/StatsCol/HealthBarContainer/HpTrack"]
+unique_name_in_owner = true
+layout_mode = 1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 0.0
+color = Color(1, 0.290196, 0.290196, 1)
+
+[node name="ManaRow" type="HBoxContainer" parent="Margin/HBox/StatsCol"]
+layout_mode = 2
+
+[node name="ManaText" type="Label" parent="Margin/HBox/StatsCol/ManaRow"]
+theme_type_variation = &"MonoLabel"
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 10
+text = "MANA"
+
+[node name="ManaGems" type="Control" parent="Margin/HBox/StatsCol/ManaRow"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_vertical = 4
+script = ExtResource("2")
